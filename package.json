@@ -6,7 +6,7 @@
   "main": "./lib/main",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guillaumechaumet/autocomplete-R.git"
+    "url": "https://github.com/guillaumechaumet/autocomplete-R.git"
   },
   "keywords": [
     "R",
