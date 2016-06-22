@@ -5,7 +5,7 @@ keywordSelectorPrefixPattern = /([a-zA-Z]+)\s*$/
 
 module.exports =
   selector: '.source.r'
-  disableForSelector: '.source.r .comment'
+  disableForSelector: '.source.r .comment, .source.r .string'
   filterSuggestions: true
 
   getSuggestions: (request) ->
