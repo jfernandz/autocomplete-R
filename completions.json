@@ -1,0 +1,3406 @@
+{
+  "keywords": {
+    "abbreviate": {
+      "text": "abbreviate",
+      "snippet": "abbreviate",
+      "prefix": "abbreviate",
+      "displayText": "abbreviate(names.arg, minlength = 4, use.classes = TRUE, dot = FALSE, strict = FALSE, method = c(\"left.kept\", \"both.sides\")",
+      "description": "Abbreviate strings to at least minlength characters,such that they remain unique (if they were),unless strict = TRUE.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/abbreviate.html"
+    },
+    "abs": {
+      "text": "abs",
+      "snippet": "abs",
+      "prefix": "abs",
+      "displayText": ["abs(x)", "sqrt(x)"],
+      "description": "abs(x) computes the absolute value of x, sqrt(x) computes the(principal) square root of x, √{x}.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/MathFun.html"
+    },
+    "cos": {
+      "text": "cos",
+      "snippet": "cos",
+      "prefix": "cos",
+      "displayText": ["cos(x)", "sin(x)", "tan(x)", "acos(x)", "asin(x)", "atan(x)", "atan2(y, x)", "cospi(x)", "sinpi(x)", "tanpi(x)"],
+      "description": "These functions give the obvious trigonometric functions.  Theyrespectively compute the cosine, sine, tangent, arc-cosine, arc-sine,arc-tangent, and the two-argument arc-tangent.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Trig.html"
+    },
+    "cosh": {
+      "text": "cosh",
+      "snippet": "cosh",
+      "prefix": "cosh",
+      "displayText": ["cosh(x)", "sinh(x)", "tanh(x)", "acosh(x)", "asinh(x)", "atanh(x)"],
+      "description": "These functions give the obvious hyperbolic functions.  Theyrespectively compute the hyperbolic cosine, sine, tangent, and theirinverses, arc-cosine, arc-sine, arc-tangent (or ‘area cosine’,etc).",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Hyperbolic.html"
+    },
+    "factor": {
+      "text": "factor",
+      "snippet": "factor",
+      "prefix": "factor",
+      "displayText": ["factor(x = character(), levels, labels = levels, exclude = NA, ordered = is.ordered(x), nmax = NA)", "ordered(x, ...)", "is.factor(x)", "is.ordered(x)", "as.factor(x)", "as.ordered(x)", "addNA(x, ifany = FALSE)"],
+      "description": "The function factor is used to encode a vector as a factor (theterms ‘category’ and ‘enumerated type’ are also used forfactors).  If argument ordered is TRUE, the factorlevels are assumed to be ordered.  For compatibility with S there isalso a function ordered.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/factor.html"
+    },
+    "addTaskCallback": {
+      "text": "addTaskCallback",
+      "snippet": "addTaskCallback",
+      "prefix": "addTaskCallback",
+      "displayText": ["addTaskCallback(f, data = NULL, name = character()", "removeTaskCallback(id)"],
+      "description": "addTaskCallback registers an R functionthat is to be called each time a top-level taskis completed.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/taskCallback.html"
+    },
+    "agrep": {
+      "text": "agrep",
+      "snippet": "agrep",
+      "prefix": "agrep",
+      "displayText": ["agrep(pattern, x, max.distance = 0.1, costs = NULL,ignore.case = FALSE, value = FALSE, fixed = TRUE,useBytes = FALSE)", "agrepl(pattern, x, max.distance = 0.1, costs = NULL, ignore.case = FALSE, fixed = TRUE, useBytes = FALSE)"],
+      "description": "Searches for approximate matches to pattern (the first argument)within each element of the string x (the second argument) usingthe generalized Levenshtein edit distance (the minimal possiblyweighted number of insertions, deletions and substitutions needed totransform one string into another).",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/agrep.html"
+    },
+    "list": {
+      "text": "list",
+      "snippet": "list",
+      "prefix": "list",
+      "displayText": ["list(...)", "pairlist(...)", "as.list(x, ...)", "as.list(x, all.names = FALSE, sorted = FALSE, ...)", "as.pairlist(x)", "is.list(x)", "is.pairlist(x)", "alist(...)"],
+      "description": "Functions to construct, coerce and check for both kinds of R lists.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/list.html"
+    },
+    "all": {
+      "text": "all",
+      "snippet": "all",
+      "prefix": "all",
+      "displayText": "all(..., na.rm = FALSE)",
+      "description": "Given a set of logical vectors, are all of the values true?",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/all.html"
+    },
+    "all.equal": {
+      "text": "all.equal",
+      "snippet": "all.equal",
+      "prefix": "all.equal",
+      "displayText": ["all.equal(target, current, ...)", "all.equal(target, current,tolerance = sqrt(.Machine$double.eps), scale = NULL,..., check.attributes = TRUE)", "all.equal(target, current, ...,check.attributes = TRUE, use.names = TRUE)", "all.equal(target, current, all.names=TRUE, ...)", "all.equal(target, current, ..., tolerance = 1e-3, scale)", "attr.all.equal(target, current, ..., check.attributes = TRUE, check.names = TRUE)"],
+      "description": "all.equal(x, y) is a utility to compare R objects xand y testing ‘near equality’.  If they are different,comparison is still made to some extent, and a report of thedifferences is returned.    Do not use all.equal directly inif expressions—either use isTRUE(all.equal(....)) oridentical if appropriate.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/all.equal.html"
+    },
+    "all.names": {
+      "text": "all.names",
+      "snippet": "all.names",
+      "prefix": "all.names",
+      "displayText": ["all.names(expr, functions = TRUE, max.names = -1L, unique = FALSE)", "all.vars(expr, functions = FALSE, max.names = -1L, unique = TRUE)"],
+      "description": "Return a character vector containing all the names which occur in anexpression or call.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/allnames.html"
+    },
+    "any": {
+      "text": "any",
+      "snippet": "any",
+      "prefix": "any",
+      "displayText": "any(..., na.rm = FALSE)",
+      "description": "Given a set of logical vectors, is at least one of the values true?",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/any.html"
+    },
+    "duplicated": {
+      "text": "duplicated",
+      "snippet": "duplicated",
+      "prefix": "duplicated",
+      "displayText": ["duplicated(x, incomparables = FALSE, ...)", "duplicated(x, incomparables = FALSE, fromLast = FALSE, nmax = NA, ...)", "duplicated(x, incomparables = FALSE, MARGIN = 1, fromLast = FALSE, ...)", "anyDuplicated(x, incomparables = FALSE, ...)", "anyDuplicated(x, incomparables = FALSE, fromLast = FALSE, ...)", "anyDuplicated(x, incomparables = FALSE, MARGIN = 1, fromLast = FALSE, ...)"],
+      "description": "duplicated() determines which elements of a vector or data frame are duplicatesof elements with smaller subscripts, and returns a logical vectorindicating which elements (rows) are duplicates.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/duplicated.html"
+    },
+    "NA\nis.na": {
+      "text": "NA\nis.na",
+      "snippet": "NA\nis.na",
+      "prefix": "NA\nis.na",
+      "displayText": ["NAis.na(x)", "anyNA(x, recursive = FALSE)", "is.na(x)", "is.na(x) <- value)"],
+      "description": "NA is a logical constant of length 1 which contains a missingvalue indicator.  NA can be coerced to any other vectortype except raw.  There are also constants NA_integer_,NA_real_, NA_complex_ and NA_character_ of theother atomic vector types which support missing values: all of theseare reserved words in the R language.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/NA.html"
+    },
+    "numeric_version": {
+      "text": "numeric_version",
+      "snippet": "numeric_version",
+      "prefix": "numeric_version",
+      "displayText": ["numeric_version(x, strict = TRUE)", "package_version(x, strict = TRUE)", "R_system_version(x, strict = TRUE)", "getRversion()"],
+      "description": "A simple S3 class for representing numeric versionsincluding package versions, and associated methods.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/numeric_version.html"
+    },
+    "print": {
+      "text": "print",
+      "snippet": "print",
+      "prefix": "print",
+      "displayText": ["print(x, ...)", "summary(object, digits = 15, ...)", "time + zz + timetime - ztime1 lop time2)"],
+      "description": "Description of the classes \"POSIXlt\" and \"POSIXct\"representing calendar dates and times.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/DateTimeClasses.html"
+    },
+    "aperm": {
+      "text": "aperm",
+      "snippet": "aperm",
+      "prefix": "aperm",
+      "displayText": ["aperm(a, perm, ...)", "aperm(a, perm = NULL, resize = TRUE, ...)", "aperm(a, perm = NULL, resize = TRUE, keep.class = TRUE, ...)"],
+      "description": "Transpose an array by permuting its dimensions and optionally resizingit.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/aperm.html"
+    },
+    "append": {
+      "text": "append",
+      "snippet": "append",
+      "prefix": "append",
+      "displayText": "append(x, values, after = length(x)",
+      "description": "Add elements to a vector.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/append.html"
+    },
+    "apply": {
+      "text": "apply",
+      "snippet": "apply",
+      "prefix": "apply",
+      "displayText": "apply(X, MARGIN, FUN, ...)",
+      "description": "Returns a vector or array or list of values obtained by applying afunction to margins of an array or matrix.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/apply.html"
+    },
+    "complex": {
+      "text": "complex",
+      "snippet": "complex",
+      "prefix": "complex",
+      "displayText": ["complex(length.out = 0, real = numeric(), imaginary = numeric(),modulus = 1, argument = 0)", "as.complex(x, ...)", "is.complex(x)", "Re(z)", "Im(z)", "Mod(z)", "Arg(z)", "Conj(z)"],
+      "description": "Basic functions which support complex arithmetic in R.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/complex.html"
+    },
+    "args": {
+      "text": "args",
+      "snippet": "args",
+      "prefix": "args",
+      "displayText": "args(name)",
+      "description": "Displays the argument names and corresponding default values of afunction or primitive.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/args.html"
+    },
+    "array": {
+      "text": "array",
+      "snippet": "array",
+      "prefix": "array",
+      "displayText": ["array(data = NA, dim = length(data), dimnames = NULL)", "as.array(x, ...)", "is.array(x)"],
+      "description": "Creates or tests for arrays.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/array.html"
+    },
+    "which": {
+      "text": "which",
+      "snippet": "which",
+      "prefix": "which",
+      "displayText": ["which(x, arr.ind = FALSE, useNames = TRUE)", "arrayInd(ind, .dim, .dimnames = NULL, useNames = FALSE)"],
+      "description": "Give the TRUE indices of a logical object, allowing for arrayindices.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/which.html"
+    },
+    "call": {
+      "text": "call",
+      "snippet": "call",
+      "prefix": "call",
+      "displayText": ["call(name, ...)", "is.call(x)", "as.call(x)"],
+      "description": "Create or test for objects of mode \"call\".",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/call.html"
+    },
+    "character": {
+      "text": "character",
+      "snippet": "character",
+      "prefix": "character",
+      "displayText": ["character(length = 0)", "as.character(x, ...)", "is.character(x)"],
+      "description": "Create or test for objects of type \"character\".",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/character.html"
+    },
+    "tryCatch": {
+      "text": "tryCatch",
+      "snippet": "tryCatch",
+      "prefix": "tryCatch",
+      "displayText": ["tryCatch(expr, ..., finally)", "withCallingHandlers(expr, ...)", "signalCondition(cond)", "simpleCondition(message, call = NULL)", "simpleError(message, call = NULL)", "simpleWarning(message, call = NULL)", "simpleMessage(message, call = NULL)", "as.character(x, ...)", "as.character(x, ...)", "print(x, ...)", "print(x, ...)", "conditionCall(c)", "conditionCall(c)", "conditionMessage(c)", "conditionMessage(c)", "withRestarts(expr, ...)", "computeRestarts(cond = NULL)", "findRestart(name, cond = NULL)", "invokeRestart(r, ...)", "invokeRestartInteractively(r)", "isRestart(x)", "restartDescription(r)", "restartFormals(r)", ".signalSimpleWarning(msg, call)", ".handleSimpleError(h, msg, call)"],
+      "description": "These functions provide a mechanism for handling unusual conditions,including errors and warnings.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/conditions.html"
+    },
+    "as.Date": {
+      "text": "as.Date",
+      "snippet": "as.Date",
+      "prefix": "as.Date",
+      "displayText": ["as.Date(x, ...)", "as.Date(x, format, ...)", "as.Date(x, origin, ...)", "as.Date(x, tz = \"UTC\", ...)", "format(x, ...)", "as.character(x, ...)"],
+      "description": "Functions to convert between character representations and objects ofclass \"Date\" representing calendar dates.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/as.Date.html"
+    },
+    "as.hexmode": {
+      "text": "as.hexmode",
+      "snippet": "as.hexmode",
+      "prefix": "as.hexmode",
+      "displayText": ["as.hexmode(x)", "as.character(x, ...)", "format(x, width = NULL, upper.case = FALSE, ...)", "print(x, ...)"],
+      "description": "Convert or print integers in hexadecimal format, with as many digitsas are needed to display the largest, using leading zeroes asnecessary.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/hexmode.html"
+    },
+    "as.octmode": {
+      "text": "as.octmode",
+      "snippet": "as.octmode",
+      "prefix": "as.octmode",
+      "displayText": ["as.octmode(x)", "as.character(x, ...)", "format(x, width = NULL, ...)", "print(x, ...)"],
+      "description": "Convert or print integers in octal format, with as many digits as areneeded to display the largest, using leading zeroes as necessary.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/octmode.html"
+    },
+    "format": {
+      "text": "format",
+      "snippet": "format",
+      "prefix": "format",
+      "displayText": ["format(x, format = \"\", tz = \"\", usetz = FALSE, ...)", "format(x, format = \"\", usetz = FALSE, ...)", "as.character(x, ...)", "strftime(x, format = \"\", tz = \"\", usetz = FALSE, ...)", "strptime(x, format, tz = \"\")"],
+      "description": "Functions to convert between character representations and objects ofclasses \"POSIXlt\" and \"POSIXct\" representing calendardates and times.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/strptime.html"
+    },
+    "srcfile": {
+      "text": "srcfile",
+      "snippet": "srcfile",
+      "prefix": "srcfile",
+      "displayText": ["srcfile(filename, encoding = getOption(\"encoding\"), Enc = \"unknown\")", "srcfilecopy(filename, lines, timestamp = Sys.time(), isFile = FALSE)", "srcfilealias(filename, srcfile)", "getSrcLines(srcfile, first, last)", "srcref(srcfile, lloc)", "print(x, ...)", "summary(object, ...)", "open(con, line, ...)", "close(con, ...)", "print(x, useSource = TRUE, ...)", "summary(object, useSource = FALSE, ...)", "as.character(x, useSource = TRUE, to = x, ...)", ".isOpen(srcfile)"],
+      "description": "These functions are for working with source files.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/srcfile.html"
+    },
+    "as.data.frame": {
+      "text": "as.data.frame",
+      "snippet": "as.data.frame",
+      "prefix": "as.data.frame",
+      "displayText": ["as.data.frame(x, row.names = NULL, optional = FALSE, ...)", "as.data.frame(x, ...,stringsAsFactors = default.stringsAsFactors())", "as.data.frame(x, row.names = NULL, optional = FALSE, ...,stringsAsFactors = default.stringsAsFactors())", "is.data.frame(x)"],
+      "description": "Functions to check if an object is a data frame, or coerce it if possible.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/as.data.frame.html"
+    },
+    "summary": {
+      "text": "summary",
+      "snippet": "summary",
+      "prefix": "summary",
+      "displayText": "summary(object, digits = 12, ...)",
+      "description": "Description of the class \"Date\" representing calendar dates.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Dates.html"
+    },
+    "table": {
+      "text": "table",
+      "snippet": "table",
+      "prefix": "table",
+      "displayText": ["table(..., exclude = if (useNA == \"no\") c(NA, NaN), useNA = c(\"no\",\"ifany\", \"always\"), dnn = list.names(...), deparse.level = 1)", "as.table(x, ...)", "is.table(x)", "as.data.frame(x, row.names = NULL, ...,responseName = \"Freq\", stringsAsFactors = TRUE,sep = \"\", base = list(LETTERS)"],
+      "description": "table uses the cross-classifying factors to build a contingencytable of the counts at each combination of factor levels.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/table.html"
+    },
+    "time1 - time2\n\ndifftime": {
+      "text": "time1 - time2\n\ndifftime",
+      "snippet": "time1 - time2\n\ndifftime",
+      "prefix": "time1 - time2\n\ndifftime",
+      "displayText": ["time1 - time2)", "difftime(time1, time2, tz, units = c(\"auto\", \"secs\", \"mins\", \"hours\", \"days\", \"weeks\"))", "as.difftime(tim, format = \"%X\", units = \"auto\")", "format(x, ...)", "units(x)", "units(x) <- valueas.double(x, units = \"auto\", ...)", "Math(x, ...)"],
+      "description": "Time intervals creation, printing, and some arithmetic.  Theprint() method calls these “time differences”.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/difftime.html"
+    },
+    "double": {
+      "text": "double",
+      "snippet": "double",
+      "prefix": "double",
+      "displayText": ["double(length = 0)", "as.double(x, ...)", "is.double(x)", "single(length = 0)", "as.single(x, ...)"],
+      "description": "Create, coerce to or test for a double-precision vector.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/double.html"
+    },
+    "as.POSIXct": {
+      "text": "as.POSIXct",
+      "snippet": "as.POSIXct",
+      "prefix": "as.POSIXct",
+      "displayText": ["as.POSIXct(x, tz = \"\", ...)", "as.POSIXlt(x, tz = \"\", ...)", "as.POSIXlt(x, tz = \"\", format, ...)", "as.POSIXlt(x, tz = \"\", origin, ...)", "as.double(x, ...)"],
+      "description": "Functions to manipulate objects of classes \"POSIXlt\" and\"POSIXct\" representing calendar dates and times.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/as.POSIXlt.html"
+    },
+    "as.environment": {
+      "text": "as.environment",
+      "snippet": "as.environment",
+      "prefix": "as.environment",
+      "displayText": "as.environment(x)",
+      "description": "A generic function coercing an R object to anenvironment.  A number or a character string isconverted to the corresponding environment on the search path.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/as.environment.html"
+    },
+    "expression": {
+      "text": "expression",
+      "snippet": "expression",
+      "prefix": "expression",
+      "displayText": ["expression(...)", "is.expression(x)", "as.expression(x, ...)"],
+      "description": "Creates or tests for objects of mode \"expression\".",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/expression.html"
+    },
+    "as.function": {
+      "text": "as.function",
+      "snippet": "as.function",
+      "prefix": "as.function",
+      "displayText": ["as.function(x, ...)", "as.function(x, envir = parent.frame(), ...)"],
+      "description": "as.function is a generic function which is used to convertobjects to functions.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/as.function.html"
+    },
+    "integer": {
+      "text": "integer",
+      "snippet": "integer",
+      "prefix": "integer",
+      "displayText": ["integer(length = 0)", "as.integer(x, ...)", "is.integer(x)"],
+      "description": "Creates or tests for objects of type \"integer\".",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/integer.html"
+    },
+    "TRUE\nFALSE\nT; F\n\nlogical": {
+      "text": "TRUE\nFALSE\nT; F\n\nlogical",
+      "snippet": "TRUE\nFALSE\nT; F\n\nlogical",
+      "prefix": "TRUE\nFALSE\nT; F\n\nlogical",
+      "displayText": ["TRUEFALSET; F)", "logical(length = 0)", "as.logical(x, ...)", "is.logical(x)"],
+      "description": "Create or test for objects of type \"logical\", and the basiclogical constants.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/logical.html"
+    },
+    "matrix": {
+      "text": "matrix",
+      "snippet": "matrix",
+      "prefix": "matrix",
+      "displayText": ["matrix(data = NA, nrow = 1, ncol = 1, byrow = FALSE, dimnames = NULL)", "as.matrix(x, ...)", "as.matrix(x, rownames.force = NA, ...)", "is.matrix(x)"],
+      "description": "matrix creates a matrix from the given set of values.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/matrix.html"
+    },
+    "noquote": {
+      "text": "noquote",
+      "snippet": "noquote",
+      "prefix": "noquote",
+      "displayText": ["noquote(obj)", "print(x, ...)", "c(..., recursive = FALSE)"],
+      "description": "Print character strings without quotes.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/noquote.html"
+    },
+    "as.symbol": {
+      "text": "as.symbol",
+      "snippet": "as.symbol",
+      "prefix": "as.symbol",
+      "displayText": ["as.symbol(x)", "is.symbol(x)", "as.name(x)", "is.name(x)"],
+      "description": "A ‘name’ (also known as a ‘symbol’) is a way to refer toR objects by name (rather than the value of the object, if any, boundto that name).",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/name.html"
+    },
+    "NULL\nas.null": {
+      "text": "NULL\nas.null",
+      "snippet": "NULL\nas.null",
+      "prefix": "NULL\nas.null",
+      "displayText": ["NULLas.null(x, ...)", "is.null(x)"],
+      "description": "NULL represents the null object in R: it is a reservedword.  NULL is often returned by expressions and functionswhose value is undefined.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/NULL.html"
+    },
+    "numeric": {
+      "text": "numeric",
+      "snippet": "numeric",
+      "prefix": "numeric",
+      "displayText": ["numeric(length = 0)", "as.numeric(x, ...)", "is.numeric(x)"],
+      "description": "Creates or coerces objects of type \"numeric\".is.numeric is a more general test of an object beinginterpretable as numbers.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/numeric.html"
+    },
+    "qr": {
+      "text": "qr",
+      "snippet": "qr",
+      "prefix": "qr",
+      "displayText": ["qr(x, ...)", "qr(x, tol = 1e-07 , LAPACK = FALSE, ...)", "qr.coef(qr, y)", "qr.qy(qr, y)", "qr.qty(qr, y)", "qr.resid(qr, y)", "qr.fitted(qr, y, k = qr$rank)", "qr.solve(a, b, tol = 1e-7)", "solve(a, b, ...)", "is.qr(x)", "as.qr(x)"],
+      "description": "qr computes the QR decomposition of a matrix.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/qr.html"
+    },
+    "raw": {
+      "text": "raw",
+      "snippet": "raw",
+      "prefix": "raw",
+      "displayText": ["raw(length = 0)", "as.raw(x)", "is.raw(x)"],
+      "description": "Creates or tests for objects of type \"raw\".",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/raw.html"
+    },
+    "vector": {
+      "text": "vector",
+      "snippet": "vector",
+      "prefix": "vector",
+      "displayText": ["vector(mode = \"logical\", length = 0)", "as.vector(x, mode = \"any\")", "is.vector(x, mode = \"any\")"],
+      "description": "vector produces a vector of the given length and mode.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/vector.html"
+    },
+    "I": {
+      "text": "I",
+      "snippet": "I",
+      "prefix": "I",
+      "displayText": "I(x)",
+      "description": "Change the class of an object to indicate that it should be treated‘as is’.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/AsIs.html"
+    },
+    "isS4": {
+      "text": "isS4",
+      "snippet": "isS4",
+      "prefix": "isS4",
+      "displayText": ["isS4(object)", "asS4(object, flag = TRUE, complete = TRUE)", "asS3(object, flag = TRUE, complete = TRUE)"],
+      "description": "Tests whether the object is an instance of an S4 class.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/isS4.html"
+    },
+    "assign": {
+      "text": "assign",
+      "snippet": "assign",
+      "prefix": "assign",
+      "displayText": "assign(x, value, pos = -1, envir = as.environment(pos), inherits = FALSE, immediate = TRUE)",
+      "description": "Assign a value to a name in an environment.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/assign.html"
+    },
+    "attach": {
+      "text": "attach",
+      "snippet": "attach",
+      "prefix": "attach",
+      "displayText": "attach(what, pos = 2L, name = deparse(substitute(what)), warn.conflicts = TRUE)",
+      "description": "The database is attached to the R search path.  This means that thedatabase is searched by R when evaluating a variable, so objects inthe database can be accessed by simply giving their names.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/attach.html"
+    },
+    "attachNamespace": {
+      "text": "attachNamespace",
+      "snippet": "attachNamespace",
+      "prefix": "attachNamespace",
+      "displayText": ["attachNamespace(ns, pos = 2L, depends = NULL)", "loadNamespace(package, lib.loc = NULL,keep.source = getOption(\"keep.source.pkgs\"),partial = FALSE, versionCheck = NULL)", "requireNamespace(package, ..., quietly = FALSE)", "loadedNamespaces()", "unloadNamespace(ns)", "isNamespaceLoaded(name)"],
+      "description": "Functions to load and unload name spaces.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/ns-load.html"
+    },
+    "attr": {
+      "text": "attr",
+      "snippet": "attr",
+      "prefix": "attr",
+      "displayText": ["attr(x, which, exact = FALSE)", "attr(x, which) <- value)"],
+      "description": "Get or set specific attributes of an object.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/attr.html"
+    },
+    "attributes": {
+      "text": "attributes",
+      "snippet": "attributes",
+      "prefix": "attributes",
+      "displayText": ["attributes(obj)", "attributes(obj) <- valuemostattributes(obj) <- value)"],
+      "description": "These functions access an object's attributes.The first form below returns the object's attribute list.The replacement forms uses the list on the right-handside of the assignment as the object's attributes (if appropriate).",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/attributes.html"
+    },
+    "autoload": {
+      "text": "autoload",
+      "snippet": "autoload",
+      "prefix": "autoload",
+      "displayText": ["autoload(name, package, reset = FALSE, ...)", "autoloader(name, package, ...)", ".AutoloadEnv.Autoloaded)"],
+      "description": "autoload creates a promise-to-evaluate autoloader andstores it with name name in .AutoloadEnv environment.When R attempts to evaluate name, autoloader is run,the package is loaded and name is re-evaluated in the newpackage's environment.  The result is that R behaves as iffile was loaded but it does not occupy memory.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/autoload.html"
+    },
+    "   backsolve": {
+      "text": "   backsolve",
+      "snippet": "   backsolve",
+      "prefix": "   backsolve",
+      "displayText": [" backsolve(r, x, k = ncol(r), upper.tri = TRUE, transpose = FALSE)", "forwardsolve(l, x, k = ncol(l), upper.tri = FALSE, transpose = FALSE)"],
+      "description": "Solves a triangular system of linear equations.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/backsolve.html"
+    },
+    "environment": {
+      "text": "environment",
+      "snippet": "environment",
+      "prefix": "environment",
+      "displayText": ["environment(fun = NULL)", "environment(fun) <- value)", "is.environment(x)", ".GlobalEnvglobalenv()", ".BaseNamespaceEnv)", "emptyenv()", "baseenv()", "new.env(hash = TRUE, parent = parent.frame(), size = 29L)", "parent.env(env)", "parent.env(env) <- value)", "environmentName(env)", "env.profile(env)"],
+      "description": "Get, set, test for and create environments.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/environment.html"
+    },
+    "basename": {
+      "text": "basename",
+      "snippet": "basename",
+      "prefix": "basename",
+      "displayText": ["basename(path)", "dirname(path)"],
+      "description": "basename removes all of the path up to and including the lastpath separator (if any).",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/basename.html"
+    },
+    "besselI": {
+      "text": "besselI",
+      "snippet": "besselI",
+      "prefix": "besselI",
+      "displayText": ["besselI(x, nu, expon.scaled = FALSE)", "besselK(x, nu, expon.scaled = FALSE)", "besselJ(x, nu)", "besselY(x, nu)"],
+      "description": "Bessel Functions of integer and fractional order, of firstand second kind, J(nu) and Y(nu), andModified Bessel functions (of first and third kind),I(nu) and K(nu).",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Bessel.html"
+    },
+    "beta": {
+      "text": "beta",
+      "snippet": "beta",
+      "prefix": "beta",
+      "displayText": ["beta(a, b)", "lbeta(a, b)", "gamma(x)", "lgamma(x)", "psigamma(x, deriv = 0)", "digamma(x)", "trigamma(x)", "choose(n, k)", "lchoose(n, k)", "factorial(x)", "lfactorial(x)"],
+      "description": "Special mathematical functions related to the beta and gammafunctions.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Special.html"
+    },
+    "lockEnvironment": {
+      "text": "lockEnvironment",
+      "snippet": "lockEnvironment",
+      "prefix": "lockEnvironment",
+      "displayText": ["lockEnvironment(env, bindings = FALSE)", "environmentIsLocked(env)", "lockBinding(sym, env)", "unlockBinding(sym, env)", "bindingIsLocked(sym, env)", "makeActiveBinding(sym, fun, env)", "bindingIsActive(sym, env)"],
+      "description": "These functions represent an interface for adjustmentsto environments and bindings within environments.  They allow forlocking environments as well as individual bindings, and for linkinga variable to a function.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/bindenv.html"
+    },
+    "gettext": {
+      "text": "gettext",
+      "snippet": "gettext",
+      "prefix": "gettext",
+      "displayText": ["gettext(..., domain = NULL)", "ngettext(n, msg1, msg2, domain = NULL)", "bindtextdomain(domain, dirname = NULL)"],
+      "description": "If Native Language Support was enabled in this build of R, attempt totranslate character vectors or set where the translations are to be found.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/gettext.html"
+    },
+    "bitwNot": {
+      "text": "bitwNot",
+      "snippet": "bitwNot",
+      "prefix": "bitwNot",
+      "displayText": ["bitwNot(a)", "bitwAnd(a, b)", "bitwOr(a, b)", "bitwXor(a, b)", "bitwShiftL(a, n)", "bitwShiftR(a, n)"],
+      "description": "Logical operations on integer vectors with elements viewed as sets of bits.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/bitwise.html"
+    },
+    "body": {
+      "text": "body",
+      "snippet": "body",
+      "prefix": "body",
+      "displayText": ["body(fun = sys.function(sys.parent())", "body(fun, envir = environment(fun)) <- value)"],
+      "description": "Get or set the body of a function.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/body.html"
+    },
+    "bquote": {
+      "text": "bquote",
+      "snippet": "bquote",
+      "prefix": "bquote",
+      "displayText": "bquote(expr, where = parent.frame()",
+      "description": "An analogue of the LISP backquote macro.  bquote quotes itsargument except that terms wrapped in .() are evaluated in thespecified where environment.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/bquote.html"
+    },
+    "if": {
+      "text": "if",
+      "snippet": "if",
+      "prefix": "if",
+      "displayText": ["if(cond) exprif(cond) cons.exprelsealt.expr)", "for(var in seq) exprwhile(cond) exprrepeat exprbreaknext)"],
+      "description": "These are the basic control-flow constructs of the R language.  Theyfunction in much the same way as control statements in any Algol-likelanguage.  They are all reserved words.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Control.html"
+    },
+    "browser": {
+      "text": "browser",
+      "snippet": "browser",
+      "prefix": "browser",
+      "displayText": "browser(text = \"\", condition = NULL, expr = TRUE, skipCalls = 0L)",
+      "description": "Interrupt the execution of an expression and allow the inspection ofthe environment where browser was called from.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/browser.html"
+    },
+    "browserText": {
+      "text": "browserText",
+      "snippet": "browserText",
+      "prefix": "browserText",
+      "displayText": ["browserText(n = 1)", "browserCondition(n = 1)", "browserSetDebug(n = 1)"],
+      "description": "A call to browser can provide context by supplying either a textargument or a condition argument.  These functions can be used toretrieve either of these arguments.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/browserText.html"
+    },
+    "builtins": {
+      "text": "builtins",
+      "snippet": "builtins",
+      "prefix": "builtins",
+      "displayText": "builtins(internal = FALSE)",
+      "description": "Return the names of all the built-in objects.  These are fetcheddirectly from the symbol table of the R interpreter.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/builtins.html"
+    },
+    "by": {
+      "text": "by",
+      "snippet": "by",
+      "prefix": "by",
+      "displayText": "by(data, INDICES, FUN, ..., simplify = TRUE)",
+      "description": "Function by is an object-oriented wrapper fortapply applied to data frames.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/by.html"
+    },
+    "file": {
+      "text": "file",
+      "snippet": "file",
+      "prefix": "file",
+      "displayText": ["file(description = \"\", open = \"\", blocking = TRUE, encoding = getOption(\"encoding\"), raw = FALSE)", "url(description, open = \"\", blocking = TRUE,encoding = getOption(\"encoding\"), method)", "gzfile(description, open = \"\", encoding = getOption(\"encoding\"), compression = 6)", "bzfile(description, open = \"\", encoding = getOption(\"encoding\"), compression = 9)", "xzfile(description, open = \"\", encoding = getOption(\"encoding\"), compression = 6)", "unz(description, filename, open = \"\", encoding = getOption(\"encoding\"))", "pipe(description, open = \"\", encoding = getOption(\"encoding\"))", "fifo(description, open = \"\", blocking = FALSE, encoding = getOption(\"encoding\"))", "socketConnection(host = \"localhost\", port, server = FALSE, blocking = FALSE, open = \"a+\", encoding = getOption(\"encoding\"), timeout = getOption(\"timeout\"))", "open(con, ...)", "open(con, open = \"r\", blocking = TRUE, ...)", "close(con, ...)", "close(con, type = \"rw\", ...)", "flush(con)", "isOpen(con, rw = \"\")", "isIncomplete(con)"],
+      "description": "Functions to create, open and close connections, i.e.,“generalized files”, such as possibly compressed files, URLs,pipes, etc.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/connections.html"
+    },
+    "c": {
+      "text": "c",
+      "snippet": "c",
+      "prefix": "c",
+      "displayText": "c(..., recursive = FALSE)",
+      "description": "This is a generic function which combines its arguments.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/c.html"
+    },
+    "warnings": {
+      "text": "warnings",
+      "snippet": "warnings",
+      "prefix": "warnings",
+      "displayText": "warnings(...)",
+      "description": "warnings and its print method print thevariable last.warning in a pleasing form.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/warnings.html"
+    },
+    "callCC": {
+      "text": "callCC",
+      "snippet": "callCC",
+      "prefix": "callCC",
+      "displayText": "callCC(fun)",
+      "description": "A downward-only version of Scheme's call with current continuation.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/callCC.html"
+    },
+    "capabilities": {
+      "text": "capabilities",
+      "snippet": "capabilities",
+      "prefix": "capabilities",
+      "displayText": "capabilities(what = NULL)",
+      "description": "Report on the optional features which have been compiled into thisbuild of R.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/capabilities.html"
+    },
+    "chartr": {
+      "text": "chartr",
+      "snippet": "chartr",
+      "prefix": "chartr",
+      "displayText": ["chartr(old, new, x)", "tolower(x)", "toupper(x)", "casefold(x, upper = FALSE)"],
+      "description": "Translate characters in character vectors, in particular from upper tolower case or vice versa.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/chartr.html"
+    },
+    "cat": {
+      "text": "cat",
+      "snippet": "cat",
+      "prefix": "cat",
+      "displayText": "cat(... , file = \"\", sep = \" \", fill = FALSE, labels = NULL,append = FALSE)",
+      "description": "Outputs the objects, concatenating the representations.  catperforms much less conversion than print.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/cat.html"
+    },
+    "cbind": {
+      "text": "cbind",
+      "snippet": "cbind",
+      "prefix": "cbind",
+      "displayText": ["cbind(..., deparse.level = 1)", "rbind(..., deparse.level = 1)", "rbind(..., deparse.level = 1, make.row.names = TRUE,stringsAsFactors = default.stringsAsFactors()"],
+      "description": "Take a sequence of vector, matrix or data-frame arguments and combineby columns or rows, respectively.  These are genericfunctions with methods for other R classes.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/cbind.html"
+    },
+    "ceiling": {
+      "text": "ceiling",
+      "snippet": "ceiling",
+      "prefix": "ceiling",
+      "displayText": ["ceiling(x)", "floor(x)", "trunc(x, ...)", "round(x, digits = 0)", "signif(x, digits = 6)"],
+      "description": "ceiling takes a single numeric argument x and returns anumeric vector containing the smallest integers not less than thecorresponding elements of x.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Round.html"
+    },
+    "char.expand": {
+      "text": "char.expand",
+      "snippet": "char.expand",
+      "prefix": "char.expand",
+      "displayText": "char.expand(input, target, nomatch = stop(\"no match\"))",
+      "description": "Seeks a unique match of its first argument among theelements of its second.  If successful, it returns this element;otherwise, it performs an action specified by the third argument.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/char.expand.html"
+    },
+    "charmatch": {
+      "text": "charmatch",
+      "snippet": "charmatch",
+      "prefix": "charmatch",
+      "displayText": "charmatch(x, table, nomatch = NA_integer_)",
+      "description": "charmatch seeks matches for the elements of its first argumentamong those of its second.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/charmatch.html"
+    },
+    "charToRaw": {
+      "text": "charToRaw",
+      "snippet": "charToRaw",
+      "prefix": "charToRaw",
+      "displayText": ["charToRaw(x)", "rawToChar(x, multiple = FALSE)", "rawShift(x, n)", "rawToBits(x)", "intToBits(x)", "packBits(x, type = c(\"raw\", \"integer\")"],
+      "description": "Conversion and manipulation of  objects of type \"raw\".",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/rawConversion.html"
+    },
+    "chkDots": {
+      "text": "chkDots",
+      "snippet": "chkDots",
+      "prefix": "chkDots",
+      "displayText": "chkDots(..., which.call = -1, allowed = character(0)",
+      "description": "Warn about extraneous arguments in the ... of its caller.  Autility to be used e.g., in S3 methods which need a formal ...argument but do not make any use of it.  This helps catching usererrors in calling the function in question (which is the caller ofchkDots().",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/chkDots.html"
+    },
+    "chol": {
+      "text": "chol",
+      "snippet": "chol",
+      "prefix": "chol",
+      "displayText": ["chol(x, ...)", "chol(x, pivot = FALSE,LINPACK = FALSE, tol = -1, ...)"],
+      "description": "Compute the Choleski factorization of a real symmetricpositive-definite square matrix.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/chol.html"
+    },
+    "chol2inv": {
+      "text": "chol2inv",
+      "snippet": "chol2inv",
+      "prefix": "chol2inv",
+      "displayText": "chol2inv(x, size = NCOL(x), LINPACK = FALSE)",
+      "description": "Invert a symmetric, positive definite square matrix from its Choleskidecomposition.  Equivalently, compute (X'X)^(-1)from the (R part) of the QR decomposition of X.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/chol2inv.html"
+    },
+    "class": {
+      "text": "class",
+      "snippet": "class",
+      "prefix": "class",
+      "displayText": ["class(x)", "class(x) <- valueunclass(x)", "inherits(x, what, which = FALSE)", "oldClass(x)", "oldClass(x) <- value)"],
+      "description": "R possesses a simple generic function mechanism which can be used foran object-oriented style of programming.  Method dispatch takes placebased on the class of the first argument to the generic function.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/class.html"
+    },
+    "pushBack": {
+      "text": "pushBack",
+      "snippet": "pushBack",
+      "prefix": "pushBack",
+      "displayText": ["pushBack(data, connection, newLine = TRUE, encoding = c(\"\", \"bytes\", \"UTF-8\")", "pushBackLength(connection)", "clearPushBack(connection)"],
+      "description": "Functions to push back text lines onto a connection, and to enquirehow many lines are currently pushed back.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/pushBack.html"
+    },
+    "showConnections": {
+      "text": "showConnections",
+      "snippet": "showConnections",
+      "prefix": "showConnections",
+      "displayText": ["showConnections(all = FALSE)", "getConnection(what)", "closeAllConnections()", "stdin()", "stdout()", "stderr()", "isatty(con)"],
+      "description": "Display aspects of connections.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/showConnections.html"
+    },
+    "function": {
+      "text": "function",
+      "snippet": "function",
+      "prefix": "function",
+      "displayText": "function( arglist ) exprreturn(value)",
+      "description": "These functions provide the base mechanisms for definingnew functions in the R language.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/function.html"
+    },
+    "utf8ToInt": {
+      "text": "utf8ToInt",
+      "snippet": "utf8ToInt",
+      "prefix": "utf8ToInt",
+      "displayText": ["utf8ToInt(x)", "intToUtf8(x, multiple = FALSE)"],
+      "description": "Conversion of UTF-8 encoded character vectors to and from integer vectors.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/utf8Conversion.html"
+    },
+    "col": {
+      "text": "col",
+      "snippet": "col",
+      "prefix": "col",
+      "displayText": "col(x, as.factor = FALSE)",
+      "description": "Returns a matrix of integers indicating their column number in amatrix-like object, or a factor of column labels.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/col.html"
+    },
+    "colSums ": {
+      "text": "colSums ",
+      "snippet": "colSums ",
+      "prefix": "colSums ",
+      "displayText": ["colSums (x, na.rm = FALSE, dims = 1)", "rowSums (x, na.rm = FALSE, dims = 1)", "colMeans(x, na.rm = FALSE, dims = 1)", "rowMeans(x, na.rm = FALSE, dims = 1)", ".colSums(X, m, n, na.rm = FALSE)", ".rowSums(X, m, n, na.rm = FALSE)", ".colMeans(X, m, n, na.rm = FALSE)", ".rowMeans(X, m, n, na.rm = FALSE)"],
+      "description": "Form row and column sums and means for numeric arrays.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/colSums.html"
+    },
+    "rownames": {
+      "text": "rownames",
+      "snippet": "rownames",
+      "prefix": "rownames",
+      "displayText": ["rownames(x, do.NULL = TRUE, prefix = \"row\")", "rownames(x) <- value)", "colnames(x, do.NULL = TRUE, prefix = \"col\")", "colnames(x) <- value)"],
+      "description": "Retrieve or set the row or column names of a matrix-like object.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/colnames.html"
+    },
+    "commandArgs": {
+      "text": "commandArgs",
+      "snippet": "commandArgs",
+      "prefix": "commandArgs",
+      "displayText": "commandArgs(trailingOnly = FALSE)",
+      "description": "Provides access to a copy of the command line arguments supplied whenthis R session was invoked.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/commandArgs.html"
+    },
+    "comment": {
+      "text": "comment",
+      "snippet": "comment",
+      "prefix": "comment",
+      "displayText": ["comment(x)", "comment(x) <- value)"],
+      "description": "These functions set and query a commentattribute for any R objects.  This is typically useful fordata.frames or model fits.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/comment.html"
+    },
+    "Math": {
+      "text": "Math",
+      "snippet": "Math",
+      "prefix": "Math",
+      "displayText": ["Math(x, \\dots)", "Ops(e1, e2)", "Complex(z)", "Summary(\\dots, na.rm = FALSE)"],
+      "description": "Group generic methods can be defined for four pre-specified groups offunctions, Math, Ops, Summary and Complex.(There are no objects of these names in base R, but there are in themethods package.)",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/groupGeneric.html"
+    },
+    "conflicts": {
+      "text": "conflicts",
+      "snippet": "conflicts",
+      "prefix": "conflicts",
+      "displayText": "conflicts(where = search(), detail = FALSE)",
+      "description": "conflicts reports on objects that exist with the same name intwo or more places on the search path, usually becausean object in the user's workspace or a package is masking a systemobject of the same name.  This helps discover unintentional masking.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/conflicts.html"
+    },
+    "contributors": {
+      "text": "contributors",
+      "snippet": "contributors",
+      "prefix": "contributors",
+      "displayText": "contributors()",
+      "description": "The R Who-is-who, describing who made significant contributions tothe development of R.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/contributors.html"
+    },
+    "crossprod": {
+      "text": "crossprod",
+      "snippet": "crossprod",
+      "prefix": "crossprod",
+      "displayText": ["crossprod(x, y = NULL)", "tcrossprod(x, y = NULL)"],
+      "description": "Given matrices x and y as arguments, return a matrixcross-product.  This is formally equivalent to (but usually slightlyfaster than) the call t(x) %*% y (crossprod) orx %*% t(y) (tcrossprod).",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/crossprod.html"
+    },
+    "Cstack_info": {
+      "text": "Cstack_info",
+      "snippet": "Cstack_info",
+      "prefix": "Cstack_info",
+      "displayText": "Cstack_info()",
+      "description": "Report information on the C stack size and usage (if available).",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Cstack_info.html"
+    },
+    "cumsum": {
+      "text": "cumsum",
+      "snippet": "cumsum",
+      "prefix": "cumsum",
+      "displayText": ["cumsum(x)", "cumprod(x)", "cummax(x)", "cummin(x)"],
+      "description": "Returns a vector whose elements are the cumulative sums, products,minima or maxima of the elements of the argument.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/cumsum.html"
+    },
+    "curlGetHeaders": {
+      "text": "curlGetHeaders",
+      "snippet": "curlGetHeaders",
+      "prefix": "curlGetHeaders",
+      "displayText": "curlGetHeaders(url, redirect = TRUE, verify = TRUE)",
+      "description": "Retrieve the headers for a URL for a supported protocol such ashttp://, ftp://, https:// and ftps://.An optional function not supported on all platforms.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/curlGetHeaders.html"
+    },
+    "cut": {
+      "text": "cut",
+      "snippet": "cut",
+      "prefix": "cut",
+      "displayText": ["cut(x, ...)", "cut(x, breaks, labels = NULL,include.lowest = FALSE, right = TRUE, dig.lab = 3,ordered_result = FALSE, ...)"],
+      "description": "cut divides the range of x into intervalsand codes the values in x according to whichinterval they fall.  The leftmost interval corresponds to level one,the next leftmost to level two and so on.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/cut.html"
+    },
+    "cut.1": {
+      "text": "cut",
+      "snippet": "cut",
+      "prefix": "cut",
+      "displayText": ["cut(x, breaks, labels = NULL, start.on.monday = TRUE,right = FALSE, ...)", "cut(x, breaks, labels = NULL, start.on.monday = TRUE,right = FALSE, ...)"],
+      "description": "Method for cut applied to date-time objects.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/cut.POSIXt.html"
+    },
+    "data.class": {
+      "text": "data.class",
+      "snippet": "data.class",
+      "prefix": "data.class",
+      "displayText": "data.class(x)",
+      "description": "Determine the class of an arbitrary R object.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/data.class.html"
+    },
+    "data.frame": {
+      "text": "data.frame",
+      "snippet": "data.frame",
+      "prefix": "data.frame",
+      "displayText": ["data.frame(..., row.names = NULL, check.rows = FALSE, check.names = TRUE, stringsAsFactors = default.stringsAsFactors())", "default.stringsAsFactors()"],
+      "description": "This function creates data frames, tightly coupledcollections of variables which share many of the properties ofmatrices and of lists, used as the fundamental data structure by mostof R's modeling software.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/data.frame.html"
+    },
+    "data.matrix": {
+      "text": "data.matrix",
+      "snippet": "data.matrix",
+      "prefix": "data.matrix",
+      "displayText": "data.matrix(frame, rownames.force = NA)",
+      "description": "Return the matrix obtained by converting all the variables in a dataframe to numeric mode and then binding them together as the columns ofa matrix.  Factors and ordered factors are replaced by their internalcodes.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/data.matrix.html"
+    },
+    "date": {
+      "text": "date",
+      "snippet": "date",
+      "prefix": "date",
+      "displayText": "date()",
+      "description": "Returns a character string of the current system date and time.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/date.html"
+    },
+    "debug": {
+      "text": "debug",
+      "snippet": "debug",
+      "prefix": "debug",
+      "displayText": ["debug(fun, text = \"\", condition = NULL)", "debugonce(fun, text = \"\", condition = NULL)", "undebug(fun)", "isdebugged(fun)", "debuggingState(on = NULL)"],
+      "description": "Set, unset or query the debugging flag on a function.The text and condition arguments are the same as thosethat can be supplied via a call to browser. They can be retrievedby the user once the browser has been entered, and provide a mechanism toallow users to identify which breakpoint has been activated.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/debug.html"
+    },
+    ".Defunct": {
+      "text": ".Defunct",
+      "snippet": ".Defunct",
+      "prefix": ".Defunct",
+      "displayText": ".Defunct(new, package = NULL, msg)",
+      "description": "When a function is removed from R it should be replaced by a functionwhich calls .Defunct.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Defunct.html"
+    },
+    "delayedAssign": {
+      "text": "delayedAssign",
+      "snippet": "delayedAssign",
+      "prefix": "delayedAssign",
+      "displayText": "delayedAssign(x, value, eval.env = parent.frame(1),assign.env = parent.frame(1)",
+      "description": "delayedAssign creates a promise to evaluate the givenexpression if its value is requested.  This provides direct accessto the lazy evaluation mechanism used by R for the evaluationof (interpreted) functions.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/delayedAssign.html"
+    },
+    "deparse": {
+      "text": "deparse",
+      "snippet": "deparse",
+      "prefix": "deparse",
+      "displayText": "deparse(expr, width.cutoff = 60L,backtick = mode(expr) %in%c(\"call\", \"expression\", \"(\", \"function\"),control = c(\"keepInteger\", \"showAttributes\", \"keepNA\"),nlines = -1L)",
+      "description": "Turn unevaluated expressions into character strings.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/deparse.html"
+    },
+    ".Deprecated": {
+      "text": ".Deprecated",
+      "snippet": ".Deprecated",
+      "prefix": ".Deprecated",
+      "displayText": ".Deprecated(new, package=NULL, msg,old = as.character(sys.call(sys.parent()))[1L])",
+      "description": "When an object is about to be removed from R it is first deprecated andshould include a call to .Deprecated.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Deprecated.html"
+    },
+    "det": {
+      "text": "det",
+      "snippet": "det",
+      "prefix": "det",
+      "displayText": ["det(x, ...)", "determinant(x, logarithm = TRUE, ...)"],
+      "description": "det calculates the determinant of a matrix.  determinantis a generic function that returns separately the modulus of the determinant,optionally on the logarithm scale, and the sign of the determinant.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/det.html"
+    },
+    "detach": {
+      "text": "detach",
+      "snippet": "detach",
+      "prefix": "detach",
+      "displayText": "detach(name, pos = 2L, unload = FALSE, character.only = FALSE, force = FALSE)",
+      "description": "Detach a database, i.e., remove it from the search()path of available R objects.  Usually this is either adata.frame which has been attached or apackage which was attached by library.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/detach.html"
+    },
+    "dput": {
+      "text": "dput",
+      "snippet": "dput",
+      "prefix": "dput",
+      "displayText": ["dput(x, file = \"\", control = c(\"keepNA\", \"keepInteger\", \"showAttributes\"))", "dget(file, keep.source = FALSE)"],
+      "description": "Writes an ASCII text representation of an R object to a fileor connection, or uses one to recreate the object.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/dput.html"
+    },
+    "diag": {
+      "text": "diag",
+      "snippet": "diag",
+      "prefix": "diag",
+      "displayText": ["diag(x = 1, nrow, ncol)", "diag(x) <- value)"],
+      "description": "Extract or replace the diagonal of a matrix,or construct a diagonal matrix.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/diag.html"
+    },
+    "diff": {
+      "text": "diff",
+      "snippet": "diff",
+      "prefix": "diff",
+      "displayText": ["diff(x, ...)", "diff(x, lag = 1, differences = 1, ...)", "diff(x, lag = 1, differences = 1, ...)", "diff(x, lag = 1, differences = 1, ...)"],
+      "description": "Returns suitably lagged and iterated differences.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/diff.html"
+    },
+    "dim": {
+      "text": "dim",
+      "snippet": "dim",
+      "prefix": "dim",
+      "displayText": ["dim(x)", "dim(x) <- value)"],
+      "description": "Retrieve or set the dimension of an object.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/dim.html"
+    },
+    "dimnames": {
+      "text": "dimnames",
+      "snippet": "dimnames",
+      "prefix": "dimnames",
+      "displayText": ["dimnames(x)", "dimnames(x) <- value)", "provideDimnames(x, sep = \"\", base = list(LETTERS), unique = TRUE)"],
+      "description": "Retrieve or set the dimnames of an object.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/dimnames.html"
+    },
+    "list.files": {
+      "text": "list.files",
+      "snippet": "list.files",
+      "prefix": "list.files",
+      "displayText": ["list.files(path = \".\", pattern = NULL, all.files = FALSE, full.names = FALSE, recursive = FALSE, ignore.case = FALSE, include.dirs = FALSE, no.. = FALSE)", " dir(path = \".\", pattern = NULL, all.files = FALSE, full.names = FALSE, recursive = FALSE, ignore.case = FALSE, include.dirs = FALSE, no.. = FALSE)", "list.dirs(path = \".\", full.names = TRUE, recursive = TRUE)"],
+      "description": "These functions produce a character vector of the names of files ordirectories in the named directory.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/list.files.html"
+    },
+    "dir.exists": {
+      "text": "dir.exists",
+      "snippet": "dir.exists",
+      "prefix": "dir.exists",
+      "displayText": ["dir.exists(paths)", "dir.create(path, showWarnings = TRUE, recursive = FALSE, mode = \"0777\")", "Sys.chmod(paths, mode = \"0777\", use_umask = TRUE)", "Sys.umask(mode = NA)"],
+      "description": "These functions provide a low-level interface to the computer'sfile system.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/files2.html"
+    },
+    "getLoadedDLLs": {
+      "text": "getLoadedDLLs",
+      "snippet": "getLoadedDLLs",
+      "prefix": "getLoadedDLLs",
+      "displayText": "getLoadedDLLs()",
+      "description": "This function provides a way to get a list of all the DLLs (seedyn.load) that are currently loaded in the R session.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/getLoadedDLLs.html"
+    },
+    "do.call": {
+      "text": "do.call",
+      "snippet": "do.call",
+      "prefix": "do.call",
+      "displayText": "do.call(what, args, quote = FALSE, envir = parent.frame()",
+      "description": "do.call constructs and executes a function call from a name ora function and a list of arguments to be passed to it.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/do.call.html"
+    },
+    "dontCheck": {
+      "text": "dontCheck",
+      "snippet": "dontCheck",
+      "prefix": "dontCheck",
+      "displayText": "dontCheck(x)",
+      "description": "The dontCheck function is the same as identity, but is interpreted by R CMD check code analysis as a directiveto suppress checking of x.  Currently this is only used bycheckFF(registration = TRUE)when checking the .NAME argument of foreign function calls.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/dontCheck.html"
+    },
+    "sQuote": {
+      "text": "sQuote",
+      "snippet": "sQuote",
+      "prefix": "sQuote",
+      "displayText": ["sQuote(x)", "dQuote(x)"],
+      "description": "Single or double quote text by combining with appropriate single ordouble left and right quotation marks.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/sQuote.html"
+    },
+    "drop": {
+      "text": "drop",
+      "snippet": "drop",
+      "prefix": "drop",
+      "displayText": "drop(x)",
+      "description": "Delete the dimensions of an array which have only one level.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/drop.html"
+    },
+    "droplevels": {
+      "text": "droplevels",
+      "snippet": "droplevels",
+      "prefix": "droplevels",
+      "displayText": ["droplevels(x, ...)", "droplevels(x, except, ...)"],
+      "description": "The function droplevels is used to drop unused levels from a factor or, more commonly, from factors in a data frame.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/droplevels.html"
+    },
+    "dump": {
+      "text": "dump",
+      "snippet": "dump",
+      "prefix": "dump",
+      "displayText": "dump(list, file = \"dumpdata.R\", append = FALSE, control = \"all\", envir = parent.frame(), evaluate = TRUE)",
+      "description": "This function takes a vector of names of R objects and producestext representations of the objects on a file or connection.A dump file can usually be sourced into anotherR session.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/dump.html"
+    },
+    "dyn.load": {
+      "text": "dyn.load",
+      "snippet": "dyn.load",
+      "prefix": "dyn.load",
+      "displayText": ["dyn.load(x, local = TRUE, now = TRUE, ...)", "dyn.unload(x)", "is.loaded(symbol, PACKAGE = \"\", type = \"\")"],
+      "description": "Load or unload DLLs (also known as shared objects), and test whether aC function or Fortran subroutine is available.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/dynload.html"
+    },
+    "get": {
+      "text": "get",
+      "snippet": "get",
+      "prefix": "get",
+      "displayText": ["get(x, pos = -1, envir = as.environment(pos), mode = \"any\",inherits = TRUE)", "mget(x, envir = as.environment(-1), mode = \"any\", ifnotfound, inherits = FALSE)", "dynGet(x, ifnotfound = , minframe = 1L, inherits = FALSE)"],
+      "description": "Search by name for an object (get) or zero or more objects(mget).",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/get.html"
+    },
+    "eapply": {
+      "text": "eapply",
+      "snippet": "eapply",
+      "prefix": "eapply",
+      "displayText": "eapply(env, FUN, ..., all.names = FALSE, USE.NAMES = TRUE)",
+      "description": "eapply applies FUN to the named values from anenvironment and returns the results as a list.  The usercan request that all named objects are used (normally names that beginwith a dot are not).  The output is not sorted and no enclosingenvironments are searched.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/eapply.html"
+    },
+    "eigen": {
+      "text": "eigen",
+      "snippet": "eigen",
+      "prefix": "eigen",
+      "displayText": "eigen(x, symmetric, only.values = FALSE, EISPACK = FALSE)",
+      "description": "Computes eigenvalues and eigenvectors of numeric (double, integer,logical) or complex matrices.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/eigen.html"
+    },
+    "Encoding": {
+      "text": "Encoding",
+      "snippet": "Encoding",
+      "prefix": "Encoding",
+      "displayText": ["Encoding(x)", "Encoding(x) <- value)", "enc2native(x)", "enc2utf8(x)"],
+      "description": "Read or set the declared encodings for a character vector.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Encoding.html"
+    },
+    "encodeString": {
+      "text": "encodeString",
+      "snippet": "encodeString",
+      "prefix": "encodeString",
+      "displayText": "encodeString(x, width = 0, quote = \"\", na.encode = TRUE, justify = c(\"left\", \"right\", \"centre\", \"none\")",
+      "description": "encodeString escapes the strings in a character vector in thesame way print.default does, and optionally fits the encodedstrings within a field width.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/encodeString.html"
+    },
+    "substring": {
+      "text": "substring",
+      "snippet": "substring",
+      "prefix": "substring",
+      "displayText": "substring(x, 1, nchar(prefix)) == prefix)",
+      "description": "Determines if entries of x start or end with string (entries of)prefix or suffix respectively, where strings arerecycled to common lengths.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/startsWith.html"
+    },
+    "substitute": {
+      "text": "substitute",
+      "snippet": "substitute",
+      "prefix": "substitute",
+      "displayText": ["substitute(expr, env)", "quote(expr)", "enquote(cl)"],
+      "description": "substitute returns the parse tree for the (unevaluated)expression expr, substituting any variables bound inenv.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/substitute.html"
+    },
+    "eval": {
+      "text": "eval",
+      "snippet": "eval",
+      "prefix": "eval",
+      "displayText": ["eval(expr, envir = parent.frame(), enclos = if(is.list(envir) || is.pairlist(envir)", " parent.frame() else baseenv()", "evalq(expr, envir, enclos)", "eval.parent(expr, n = 1)", "local(expr, envir = new.env()"],
+      "description": "Evaluate an R expression in a specified environment.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/eval.html"
+    },
+    "exists": {
+      "text": "exists",
+      "snippet": "exists",
+      "prefix": "exists",
+      "displayText": ["exists(x, where = -1, envir = , frame, mode = \"any\", inherits = TRUE)", "get0(x, envir = pos.to.env(-1L), mode = \"any\", inherits = TRUE, ifnotfound = NULL)"],
+      "description": "Look for an R object of the given name and possibly return it",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/exists.html"
+    },
+    "log": {
+      "text": "log",
+      "snippet": "log",
+      "prefix": "log",
+      "displayText": ["log(x, base = exp(1)", "logb(x, base = exp(1)", "log10(x)", "log2(x)", "log1p(x)", "exp(x)", "expm1(x)"],
+      "description": "log computes logarithms, by default natural logarithms,log10 computes common (i.e., base 10) logarithms, andlog2 computes binary (i.e., base 2) logarithms.The general form log(x, base) computes logarithms with basebase.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Log.html"
+    },
+    "expand.grid": {
+      "text": "expand.grid",
+      "snippet": "expand.grid",
+      "prefix": "expand.grid",
+      "displayText": "expand.grid(..., KEEP.OUT.ATTRS = TRUE, stringsAsFactors = TRUE)",
+      "description": "Create a data frame from all combinations of the supplied vectors orfactors.  See the description of the return value for precise details ofthe way this is done.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/expand.grid.html"
+    },
+    "x[i]\nx[i": {
+      "text": "x[i]\nx[i",
+      "snippet": "x[i]\nx[i",
+      "prefix": "x[i]\nx[i",
+      "displayText": ["x[i]x[i, j, ... , drop = TRUE]x[[i, exact = TRUE]]x[[i, j, ..., exact = TRUE]]x$namegetElement(object, name)", "x[i] <- valuex[i, j, ...] <- valuex[[i]] <- valuex$i <- value)"],
+      "description": "Operators acting on vectors, matrices, arrays and lists to extract orreplace parts.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Extract.html"
+    },
+    "extSoftVersion": {
+      "text": "extSoftVersion",
+      "snippet": "extSoftVersion",
+      "prefix": "extSoftVersion",
+      "displayText": "extSoftVersion()",
+      "description": "Report versions of (external) third-party software used.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/extSoftVersion.html"
+    },
+    "file.access": {
+      "text": "file.access",
+      "snippet": "file.access",
+      "prefix": "file.access",
+      "displayText": "file.access(names, mode = 0)",
+      "description": "Utility function to access information about files on the user'sfile systems.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/file.access.html"
+    },
+    "file.create": {
+      "text": "file.create",
+      "snippet": "file.create",
+      "prefix": "file.create",
+      "displayText": ["file.create(..., showWarnings = TRUE)", "file.exists(...)", "file.remove(...)", "file.rename(from, to)", "file.append(file1, file2)", "file.copy(from, to, overwrite = recursive, recursive = FALSE,copy.mode = TRUE, copy.date = FALSE)", "file.symlink(from, to)", "file.link(from, to)"],
+      "description": "These functions provide a low-level interface to the computer'sfile system.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/files.html"
+    },
+    "file.choose": {
+      "text": "file.choose",
+      "snippet": "file.choose",
+      "prefix": "file.choose",
+      "displayText": "file.choose(new = FALSE)",
+      "description": "Choose a file interactively.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/file.choose.html"
+    },
+    "file.info": {
+      "text": "file.info",
+      "snippet": "file.info",
+      "prefix": "file.info",
+      "displayText": ["file.info(..., extra_cols = TRUE)", "file.mode(...)", "file.mtime(...)", "file.size(...)"],
+      "description": "Utility function to extract information about files on the user'sfile systems.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/file.info.html"
+    },
+    "file.path": {
+      "text": "file.path",
+      "snippet": "file.path",
+      "prefix": "file.path",
+      "displayText": "file.path(..., fsep = .Platform$file.sep)",
+      "description": "Construct the path to a file from components in a platform-independentway.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/file.path.html"
+    },
+    "file.show": {
+      "text": "file.show",
+      "snippet": "file.show",
+      "prefix": "file.show",
+      "displayText": "file.show(..., header = rep(\"\", nfiles),title = \"R Information\",delete.file = FALSE, pager = getOption(\"pager\"),encoding = \"\")",
+      "description": "Display one or more (plain) text files, in a platformspecific way, typically via a ‘pager’.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/file.show.html"
+    },
+    "Reduce": {
+      "text": "Reduce",
+      "snippet": "Reduce",
+      "prefix": "Reduce",
+      "displayText": ["Reduce(f, x, init, right = FALSE, accumulate = FALSE)", "Filter(f, x)", "Find(f, x, right = FALSE, nomatch = NULL)", "Map(f, ...)", "Negate(f)", "Position(f, x, right = FALSE, nomatch = NA_integer_)"],
+      "description": "Reduce uses a binary function to successively combine theelements of a given vector and a possibly given initial value.Filter extracts the elements of a vector for which a predicate(logical) function gives true.  Find and Position givethe first or last such element and its position in the vector,respectively.  Map applies a function to the correspondingelements of given vectors.  Negate creates the negation of agiven function.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/funprog.html"
+    },
+    "  reg.finalizer": {
+      "text": "  reg.finalizer",
+      "snippet": "  reg.finalizer",
+      "prefix": "  reg.finalizer",
+      "displayText": "reg.finalizer(e, f, onexit = FALSE)",
+      "description": "Registers an R function to be called upon garbage collection ofobject or (optionally) at the end of an R session.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/reg.finalizer.html"
+    },
+    "find.package": {
+      "text": "find.package",
+      "snippet": "find.package",
+      "prefix": "find.package",
+      "displayText": ["find.package(package, lib.loc = NULL, quiet = FALSE, verbose = getOption(\"verbose\"))", "path.package(package, quiet = FALSE)"],
+      "description": "Find the paths to one or more packages.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/find.package.html"
+    },
+    "findInterval": {
+      "text": "findInterval",
+      "snippet": "findInterval",
+      "prefix": "findInterval",
+      "displayText": "findInterval(x, vec, rightmost.closed = FALSE, all.inside = FALSE)",
+      "description": "Given a vector of non-decreasing breakpoints in vec, find theinterval containing each element of x; i.e., ifi <- findInterval(x,v), for each index j in xv[i[j]] ≤ x[j] < v[i[j] + 1]where v[0] := - Inf,v[N+1] := + Inf, and N <- length(v).At the two boundaries, the returned index may differ by 1, dependingon the optional arguments rightmost.closed and all.inside.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/findInterval.html"
+    },
+    "is.finite": {
+      "text": "is.finite",
+      "snippet": "is.finite",
+      "prefix": "is.finite",
+      "displayText": ["is.finite(x)", "is.infinite(x)", "is.nan(x)", "InfNaN)"],
+      "description": "is.finite and is.infinite return a vector of the samelength as x, indicating which elements are finite (not infiniteand not missing) or infinite.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/is.finite.html"
+    },
+    "force": {
+      "text": "force",
+      "snippet": "force",
+      "prefix": "force",
+      "displayText": "force(x)",
+      "description": "Forces the evaluation of a function argument.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/force.html"
+    },
+    "forceAndCall": {
+      "text": "forceAndCall",
+      "snippet": "forceAndCall",
+      "prefix": "forceAndCall",
+      "displayText": "forceAndCall(n, FUN, ...)",
+      "description": "Call a function with a specified number of leading arguments forcedbefore the call if the function is a closure.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/forceAndCall.html"
+    },
+    "       .C": {
+      "text": "       .C",
+      "snippet": "       .C",
+      "prefix": "       .C",
+      "displayText": [" .C(.NAME, ..., NAOK = FALSE, DUP = TRUE, PACKAGE, ENCODING)", " .Fortran(.NAME, ..., NAOK = FALSE, DUP = TRUE, PACKAGE, ENCODING)"],
+      "description": "Functions to make calls to compiled code that has been loaded into R.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Foreign.html"
+    },
+    "formals": {
+      "text": "formals",
+      "snippet": "formals",
+      "prefix": "formals",
+      "displayText": ["formals(fun = sys.function(sys.parent())", "formals(fun, envir = environment(fun)) <- value)"],
+      "description": "Get or set the formal arguments of a function.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/formals.html"
+    },
+    "format.1": {
+      "text": "format",
+      "snippet": "format",
+      "prefix": "format",
+      "displayText": ["format(x, ...)", "format(x, trim = FALSE, digits = NULL, nsmall = 0L, justify = c(\"left\", \"right\", \"centre\", \"none\"), width = NULL, na.encode = TRUE, scientific = NA, big.mark = \"\", big.interval = 3L, small.mark = \"\", small.interval = 5L, decimal.mark = getOption(\"OutDec\"), zero.print = NULL, drop0trailing = FALSE, ...)", "format(x, ..., justify = \"none\")", "format(x, ...)", "format(x, width = 12, ...)"],
+      "description": "Format an R object for pretty printing.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/format.html"
+    },
+    "format.info": {
+      "text": "format.info",
+      "snippet": "format.info",
+      "prefix": "format.info",
+      "displayText": "format.info(x, digits = NULL, nsmall = 0)",
+      "description": "Information is returned on how format(x, digits, nsmall)would be formatted.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/format.info.html"
+    },
+    "library": {
+      "text": "library",
+      "snippet": "library",
+      "prefix": "library",
+      "displayText": ["library(package, help, pos = 2, lib.loc = NULL,character.only = FALSE, logical.return = FALSE,warn.conflicts = TRUE, quietly = FALSE,verbose = getOption(\"verbose\"))", "require(package, lib.loc = NULL, quietly = FALSE,warn.conflicts = TRUE,character.only = FALSE)"],
+      "description": "library and require load and attach add-on packages.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/library.html"
+    },
+    "format.pval": {
+      "text": "format.pval",
+      "snippet": "format.pval",
+      "prefix": "format.pval",
+      "displayText": "format.pval(pv, digits = max(1, getOption(\"digits\") - 2),eps = .Machine$double.eps, na.form = \"NA\", ...)",
+      "description": "format.pval is intended for formatting p-values.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/format.pval.html"
+    },
+    "summary.1": {
+      "text": "summary",
+      "snippet": "summary",
+      "prefix": "summary",
+      "displayText": ["summary(object, ...)", "summary(object, ..., digits = max(3, getOption(\"digits\")-3)", "summary(object, maxsum = 7, digits = max(3, getOption(\"digits\")-3), ...)", "summary(object, maxsum = 100, ...)", "summary(object, ...)"],
+      "description": "summary is a generic function used to produce result summariesof the results of various model fitting functions.  The functioninvokes particular methods which depend on theclass of the first argument.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/summary.html"
+    },
+    "formatC": {
+      "text": "formatC",
+      "snippet": "formatC",
+      "prefix": "formatC",
+      "displayText": ["formatC(x, digits = NULL, width = NULL,format = NULL, flag = \"\", mode = NULL,big.mark = \"\", big.interval = 3L,small.mark = \"\", small.interval = 5L,decimal.mark = getOption(\"OutDec\"),preserve.width = \"individual\", zero.print = NULL,drop0trailing = FALSE)", "prettyNum(x, big.mark = \"\", big.interval = 3L,small.mark= \"\", small.interval = 5L,decimal.mark = getOption(\"OutDec\"), input.d.mark = decimal.mark,preserve.width = c(\"common\", \"individual\", \"none\"),zero.print = NULL, drop0trailing = FALSE, is.cmplx = NA,...)", ".format.zeros(x, zero.print, nx = suppressWarnings(as.numeric(x))"],
+      "description": "Formatting numbers individually and flexibly, formatC() usingC style format specifications.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/formatc.html"
+    },
+    "formatDL": {
+      "text": "formatDL",
+      "snippet": "formatDL",
+      "prefix": "formatDL",
+      "displayText": "formatDL(x, y, style = c(\"table\", \"list\"), width = 0.9 * getOption(\"width\"), indent = NULL)",
+      "description": "Format vectors of items and their descriptions as 2-columntables or LaTeX-style description lists.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/formatDL.html"
+    },
+    "gc": {
+      "text": "gc",
+      "snippet": "gc",
+      "prefix": "gc",
+      "displayText": ["gc(verbose = getOption(\"verbose\"), reset = FALSE)", "gcinfo(verbose)"],
+      "description": "A call of gc causes a garbage collection to take place.gcinfo sets a flag so thatautomatic collection is either silent (verbose = FALSE) orprints memory usage statistics (verbose = TRUE).",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/gc.html"
+    },
+    "gc.time": {
+      "text": "gc.time",
+      "snippet": "gc.time",
+      "prefix": "gc.time",
+      "displayText": "gc.time(on = TRUE)",
+      "description": "This function reports the time spent in garbage collection so far inthe R session while GC timing was enabled.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/gc.time.html"
+    },
+    "gctorture": {
+      "text": "gctorture",
+      "snippet": "gctorture",
+      "prefix": "gctorture",
+      "displayText": ["gctorture(on = TRUE)", "gctorture2(step, wait = step, inhibit_release = FALSE)"],
+      "description": "Provokes garbage collection on (nearly) every memory allocation.Intended to ferret out memory protection bugs.  Also makes R runvery slowly, unfortunately.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/gctorture.html"
+    },
+    "getDLLRegisteredRoutines": {
+      "text": "getDLLRegisteredRoutines",
+      "snippet": "getDLLRegisteredRoutines",
+      "prefix": "getDLLRegisteredRoutines",
+      "displayText": "getDLLRegisteredRoutines(dll, addNames = TRUE)",
+      "description": "This function allows us to query the set of routinesin a DLL that are registered with R to enhancedynamic lookup, error handling when calling native routines,and potentially security in the future.This function provides a description of each of theregistered routines in the DLL for the different interfaces,i.e. .C, .Call, .Fortranand .External.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/getDLLRegisteredRoutines.html"
+    },
+    "stop": {
+      "text": "stop",
+      "snippet": "stop",
+      "prefix": "stop",
+      "displayText": ["stop(..., call. = TRUE, domain = NULL)", "geterrmessage()"],
+      "description": "stop stops execution of the current expression and executesan error action.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/stop.html"
+    },
+    "getHook": {
+      "text": "getHook",
+      "snippet": "getHook",
+      "prefix": "getHook",
+      "displayText": ["getHook(hookName)", "setHook(hookName, value,action = c(\"append\", \"prepend\", \"replace\"))", "packageEvent(pkgname, event = c(\"onLoad\", \"attach\", \"detach\", \"onUnload\")"],
+      "description": "These functions allow users to set actions to be taken before packagesare attached/detached and namespaces are (un)loaded.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/userhooks.html"
+    },
+    "getNativeSymbolInfo": {
+      "text": "getNativeSymbolInfo",
+      "snippet": "getNativeSymbolInfo",
+      "prefix": "getNativeSymbolInfo",
+      "displayText": "getNativeSymbolInfo(name, PACKAGE, unlist = TRUE,withRegistrationInfo = FALSE)",
+      "description": "This finds and returns a description of one or more dynamically loadedor ‘exported’ built-in native symbols.  For each name, itreturns information about the name of the symbol, the library in whichit is located and, if available, the number of arguments it expectsand by which interface it should be called (i.e .Call,.C, .Fortran, or.External). Additionally, it returns the address of thesymbol and this can be passed to other C routines.  Specifically, thisprovides a way to explicitly share symbols between differentdynamically loaded package libraries.  Also, it provides a way toquery where symbols were resolved, and aids diagnosing strangebehavior associated with dynamic resolution.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/getNativeSymbolInfo.html"
+    },
+    "options": {
+      "text": "options",
+      "snippet": "options",
+      "prefix": "options",
+      "displayText": ["options(...)", "getOption(x, default = NULL)", ".Options)"],
+      "description": "Allow the user to set and examine a variety of global optionswhich affect the way in which R computes and displays its results.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/options.html"
+    },
+    "getTaskCallbackNames": {
+      "text": "getTaskCallbackNames",
+      "snippet": "getTaskCallbackNames",
+      "prefix": "getTaskCallbackNames",
+      "displayText": "getTaskCallbackNames()",
+      "description": "This provides a way to get the names (or identifiers)for the currently registered task callbacksthat are invoked at the conclusion of each top-level task.These identifiers can be used to remove a callback.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/taskCallbackNames.html"
+    },
+    "sprintf": {
+      "text": "sprintf",
+      "snippet": "sprintf",
+      "prefix": "sprintf",
+      "displayText": ["sprintf(fmt, ...)", "gettextf(fmt, ..., domain = NULL)"],
+      "description": "A wrapper for the C function sprintf, that returns a charactervector containing a formatted combination of text and variable values.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/sprintf.html"
+    },
+    "getwd": {
+      "text": "getwd",
+      "snippet": "getwd",
+      "prefix": "getwd",
+      "displayText": ["getwd()", "setwd(dir)"],
+      "description": "getwd returns an absolute filepath representing the currentworking directory of the R process; setwd(dir) is used to setthe working directory to dir.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/getwd.html"
+    },
+    "gl": {
+      "text": "gl",
+      "snippet": "gl",
+      "prefix": "gl",
+      "displayText": "gl(n, k, length = n*k, labels = seq_len(n), ordered = FALSE)",
+      "description": "Generate factors by specifying the pattern of their levels.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/gl.html"
+    },
+    "grep": {
+      "text": "grep",
+      "snippet": "grep",
+      "prefix": "grep",
+      "displayText": ["grep(pattern, x, ignore.case = FALSE, perl = FALSE, value = FALSE, fixed = FALSE, useBytes = FALSE, invert = FALSE)", "grepl(pattern, x, ignore.case = FALSE, perl = FALSE,fixed = FALSE, useBytes = FALSE)", "sub(pattern, replacement, x, ignore.case = FALSE, perl = FALSE,fixed = FALSE, useBytes = FALSE)", "gsub(pattern, replacement, x, ignore.case = FALSE, perl = FALSE, fixed = FALSE, useBytes = FALSE)", "regexpr(pattern, text, ignore.case = FALSE, perl = FALSE,fixed = FALSE, useBytes = FALSE)", "gregexpr(pattern, text, ignore.case = FALSE, perl = FALSE, fixed = FALSE, useBytes = FALSE)", "regexec(pattern, text, ignore.case = FALSE,fixed = FALSE, useBytes = FALSE)"],
+      "description": "grep, grepl, regexpr, gregexpr andregexec search for matches to argument pattern withineach element of a character vector: they differ in the format of andamount of detail in the results.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/grep.html"
+    },
+    "grepRaw": {
+      "text": "grepRaw",
+      "snippet": "grepRaw",
+      "prefix": "grepRaw",
+      "displayText": "grepRaw(pattern, x, offset = 1L, ignore.case = FALSE,value = FALSE, fixed = FALSE, all = FALSE, invert = FALSE)",
+      "description": "grepRaw searches for substring pattern matches within araw vector x.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/grepRaw.html"
+    },
+    "grouping": {
+      "text": "grouping",
+      "snippet": "grouping",
+      "prefix": "grouping",
+      "displayText": "grouping(...)",
+      "description": "grouping returns a permutation which rearranges its firstargument such that identical values are adjacent to each other.  Alsoreturned as attributes are the group-wise partitioning and the maximumgroup size.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/grouping.html"
+    },
+    "gzcon": {
+      "text": "gzcon",
+      "snippet": "gzcon",
+      "prefix": "gzcon",
+      "displayText": "gzcon(con, level = 6, allowNonCompressed = TRUE, text = FALSE)",
+      "description": "gzcon provides a modified connection that wraps an existingconnection, and decompresses reads or compresses writes through thatconnection.  Standard gzip headers are assumed.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/gzcon.html"
+    },
+    "iconv": {
+      "text": "iconv",
+      "snippet": "iconv",
+      "prefix": "iconv",
+      "displayText": ["iconv(x, from = \"\", to = \"\", sub = NA, mark = TRUE, toRaw = FALSE)", "iconvlist()"],
+      "description": "This uses system facilities to convert a character vector betweenencodings: the ‘i’ stands for ‘internationalization’.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/iconv.html"
+    },
+    "icuSetCollate": {
+      "text": "icuSetCollate",
+      "snippet": "icuSetCollate",
+      "prefix": "icuSetCollate",
+      "displayText": ["icuSetCollate(...)", "icuGetCollate(type = c(\"actual\", \"valid\")"],
+      "description": "Controls the way collation is done by ICU (an optional part of the Rbuild).",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/icuSetCollate.html"
+    },
+    "identical": {
+      "text": "identical",
+      "snippet": "identical",
+      "prefix": "identical",
+      "displayText": "identical(x, y, num.eq = TRUE, single.NA = TRUE, attrib.as.set = TRUE,ignore.bytecode = TRUE, ignore.environment = FALSE)",
+      "description": "The safe and reliable way to test two objects for beingexactly equal.  It returns TRUE in this case,FALSE in every other case.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/identical.html"
+    },
+    "identity": {
+      "text": "identity",
+      "snippet": "identity",
+      "prefix": "identity",
+      "displayText": "identity(x)",
+      "description": "A trivial identity function returning its argument.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/identity.html"
+    },
+    "ifelse": {
+      "text": "ifelse",
+      "snippet": "ifelse",
+      "prefix": "ifelse",
+      "displayText": "ifelse(test, yes, no)",
+      "description": "ifelse returns a value with the same shape astest which is filled with elements selectedfrom either yes or nodepending on whether the element of testis TRUE or FALSE.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/ifelse.html"
+    },
+    "interaction": {
+      "text": "interaction",
+      "snippet": "interaction",
+      "prefix": "interaction",
+      "displayText": "interaction(..., drop = FALSE, sep = \".\", lex.order = FALSE)",
+      "description": "interaction computes a factor which represents the interactionof the given factors.  The result of interaction is always unordered.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/interaction.html"
+    },
+    "interactive": {
+      "text": "interactive",
+      "snippet": "interactive",
+      "prefix": "interactive",
+      "displayText": "interactive()",
+      "description": "Return TRUE when R is being used interactively andFALSE otherwise.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/interactive.html"
+    },
+    "union": {
+      "text": "union",
+      "snippet": "union",
+      "prefix": "union",
+      "displayText": ["union(x, y)", "intersect(x, y)", "setdiff(x, y)", "setequal(x, y)", "is.element(el, set)"],
+      "description": "Performs set union, intersection, (asymmetric!) difference,equality and membership on two vectors.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/sets.html"
+    },
+    "rle": {
+      "text": "rle",
+      "snippet": "rle",
+      "prefix": "rle",
+      "displayText": ["rle(x)", "inverse.rle(x, ...)", "print(x, digits = getOption(\"digits\"), prefix = \"\", ...)"],
+      "description": "Compute the lengths and values of runs of equal values in a vector– or the reverse operation.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/rle.html"
+    },
+    "invisible": {
+      "text": "invisible",
+      "snippet": "invisible",
+      "prefix": "invisible",
+      "displayText": "invisible(x)",
+      "description": "Return a (temporarily) invisible copy of an object.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/invisible.html"
+    },
+    "is.atomic": {
+      "text": "is.atomic",
+      "snippet": "is.atomic",
+      "prefix": "is.atomic",
+      "displayText": ["is.atomic(x)", "is.recursive(x)"],
+      "description": "is.atomic returns TRUE if x is of an atomic type(or NULL) and FALSE otherwise.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/is.recursive.html"
+    },
+    "is.function": {
+      "text": "is.function",
+      "snippet": "is.function",
+      "prefix": "is.function",
+      "displayText": ["is.function(x)", "is.primitive(x)"],
+      "description": "Checks whether its argument is a (primitive) function.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/is.function.html"
+    },
+    "is.language": {
+      "text": "is.language",
+      "snippet": "is.language",
+      "prefix": "is.language",
+      "displayText": "is.language(x)",
+      "description": "is.language returns TRUE if x is avariable name, a call, or anexpression.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/is.language.html"
+    },
+    "is.object": {
+      "text": "is.object",
+      "snippet": "is.object",
+      "prefix": "is.object",
+      "displayText": "is.object(x)",
+      "description": "A function rather for internal use.  It returns TRUE if theobject x has the R internal OBJECT bit set, andFALSE otherwise.  The OBJECT bit is set when a\"class\" attribute is added and removed when that attribute isremoved, so this is a very efficient way to check if an object has aclass attribute.  (S4 objects always should.)",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/is.object.html"
+    },
+    "is.R": {
+      "text": "is.R",
+      "snippet": "is.R",
+      "prefix": "is.R",
+      "displayText": "is.R()",
+      "description": "Test if running under R.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/isR.html"
+    },
+    "is.single": {
+      "text": "is.single",
+      "snippet": "is.single",
+      "prefix": "is.single",
+      "displayText": "is.single(x)",
+      "description": "is.single reports an error.  There are no single precisionvalues in R.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/is.single.html"
+    },
+    "is.unsorted": {
+      "text": "is.unsorted",
+      "snippet": "is.unsorted",
+      "prefix": "is.unsorted",
+      "displayText": "is.unsorted(x, na.rm = FALSE, strictly = FALSE)",
+      "description": "Test if an object is not sorted (in increasing order), without thecost of sorting it.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/is.unsorted.html"
+    },
+    "ISOdatetime": {
+      "text": "ISOdatetime",
+      "snippet": "ISOdatetime",
+      "prefix": "ISOdatetime",
+      "displayText": ["ISOdatetime(year, month, day, hour, min, sec, tz = \"\")", "ISOdate(year, month, day, hour = 12, min = 0, sec = 0, tz = \"GMT\")"],
+      "description": "Convenience wrappers to create date-times from numeric representations.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/ISOdatetime.html"
+    },
+    "seek": {
+      "text": "seek",
+      "snippet": "seek",
+      "prefix": "seek",
+      "displayText": ["seek(con, ...)", "seek(con, where = NA, origin = \"start\", rw = \"\", ...)", "isSeekable(con)", "truncate(con, ...)"],
+      "description": "Functions to re-position connections.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/seek.html"
+    },
+    "isSymmetric": {
+      "text": "isSymmetric",
+      "snippet": "isSymmetric",
+      "prefix": "isSymmetric",
+      "displayText": ["isSymmetric(object, ...)", "isSymmetric(object, tol = 100 * .Machine$double.eps, ...)"],
+      "description": "Generic function to test if object is symmetric or not.Currently only a matrix method is implemented, where acomplex matrix Z must be “Hermitian” forisSymmetric(Z) to be true.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/isSymmetric.html"
+    },
+    "! x\nx & y\nx && y\nx | y\nx || y\nxor": {
+      "text": "! x\nx & y\nx && y\nx | y\nx || y\nxor",
+      "snippet": "! x\nx & y\nx && y\nx | y\nx || y\nxor",
+      "prefix": "! x\nx & y\nx && y\nx | y\nx || y\nxor",
+      "displayText": ["! xx & yx && yx | yx || yxor(x, y)", "isTRUE(x)"],
+      "description": "These operators act on raw, logical and number-like vectors.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Logic.html"
+    },
+    "jitter": {
+      "text": "jitter",
+      "snippet": "jitter",
+      "prefix": "jitter",
+      "displayText": "jitter(x, factor = 1, amount = NULL)",
+      "description": "Add a small amount of noise to a numeric vector.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/jitter.html"
+    },
+    "weekdays": {
+      "text": "weekdays",
+      "snippet": "weekdays",
+      "prefix": "weekdays",
+      "displayText": ["weekdays(x, abbreviate)", "weekdays(x, abbreviate = FALSE)", "weekdays(x, abbreviate = FALSE)", "months(x, abbreviate)", "months(x, abbreviate = FALSE)", "months(x, abbreviate = FALSE)", "quarters(x, abbreviate)", "quarters(x, ...)", "quarters(x, ...)", "julian(x, ...)", "julian(x, origin = as.POSIXct(\"1970-01-01\", tz = \"GMT\"), ...)", "julian(x, origin = as.Date(\"1970-01-01\"), ...)"],
+      "description": "Extract the weekday, month or quarter, or the Julian time(days since some origin).  These are generic functions: the methodsfor the internal date-time classes are documented here.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/weekday.POSIXt.html"
+    },
+    "kappa": {
+      "text": "kappa",
+      "snippet": "kappa",
+      "prefix": "kappa",
+      "displayText": ["kappa(z, ...)", "kappa(z, exact = FALSE,norm = NULL, method = c(\"qr\", \"direct\"), ...)", "kappa(z, ...)", "kappa(z, ...)", ".kappa_tri(z, exact = FALSE, LINPACK = TRUE, norm = NULL, ...)", "rcond(x, norm = c(\"O\",\"I\",\"1\"), triangular = FALSE, ...)"],
+      "description": "The condition number of a regular (square) matrix is the product ofthe norm of the matrix and the norm of its inverse (orpseudo-inverse), and hence depends on the kind of matrix-norm.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/kappa.html"
+    },
+    "kronecker": {
+      "text": "kronecker",
+      "snippet": "kronecker",
+      "prefix": "kronecker",
+      "displayText": ["kronecker(X, Y, FUN = \"*\", make.dimnames = FALSE, ...)", "X %x% Y)"],
+      "description": "Computes the generalised kronecker product of two arrays,X and Y.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/kronecker.html"
+    },
+    "l10n_info": {
+      "text": "l10n_info",
+      "snippet": "l10n_info",
+      "prefix": "l10n_info",
+      "displayText": "l10n_info()",
+      "description": "Report on localization information.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/l10n_info.html"
+    },
+    "svd": {
+      "text": "svd",
+      "snippet": "svd",
+      "prefix": "svd",
+      "displayText": ["svd(x, nu = min(n, p), nv = min(n, p), LINPACK = FALSE)", "La.svd(x, nu = min(n, p), nv = min(n, p)"],
+      "description": "Compute the singular-value decomposition of a rectangular matrix.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/svd.html"
+    },
+    "labels": {
+      "text": "labels",
+      "snippet": "labels",
+      "prefix": "labels",
+      "displayText": "labels(object, ...)",
+      "description": "Find a suitable set of labels from an object for use in printing orplotting, for example.  A generic function.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/labels.html"
+    },
+    "lapply": {
+      "text": "lapply",
+      "snippet": "lapply",
+      "prefix": "lapply",
+      "displayText": ["lapply(X, FUN, ...)", "sapply(X, FUN, ..., simplify = TRUE, USE.NAMES = TRUE)", "vapply(X, FUN, FUN.VALUE, ..., USE.NAMES = TRUE)", "replicate(n, expr, simplify = \"array\")", "simplify2array(x, higher = TRUE)"],
+      "description": "lapply returns a list of the same length as X, eachelement of which is the result of applying FUN to thecorresponding element of X.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/lapply.html"
+    },
+    "La_version": {
+      "text": "La_version",
+      "snippet": "La_version",
+      "prefix": "La_version",
+      "displayText": "La_version()",
+      "description": "Report the version of LAPACK in use.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/La_version.html"
+    },
+    "Sys.getlocale": {
+      "text": "Sys.getlocale",
+      "snippet": "Sys.getlocale",
+      "prefix": "Sys.getlocale",
+      "displayText": ["Sys.getlocale(category = \"LC_ALL\")", "Sys.setlocale(category = \"LC_ALL\", locale = \"\")"],
+      "description": "Get details of or set aspects of the locale for the R process.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/locales.html"
+    },
+    "length": {
+      "text": "length",
+      "snippet": "length",
+      "prefix": "length",
+      "displayText": ["length(x)", "length(x) <- value)"],
+      "description": "Get or set the length of vectors (including lists) and factors, and ofany other R object for which a method has been defined.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/length.html"
+    },
+    "lengths": {
+      "text": "lengths",
+      "snippet": "lengths",
+      "prefix": "lengths",
+      "displayText": "lengths(x, use.names = TRUE)",
+      "description": "Get the length of each element of a list or atomicvector (is.atomic) as an integer or numeric vector.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/lengths.html"
+    },
+    "levels": {
+      "text": "levels",
+      "snippet": "levels",
+      "prefix": "levels",
+      "displayText": ["levels(x)", "levels(x) <- value)"],
+      "description": "levels provides access to the levels attribute of a variable.The first form returns the value of the levels of its argumentand the second sets the attribute.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/levels.html"
+    },
+    "libcurlVersion": {
+      "text": "libcurlVersion",
+      "snippet": "libcurlVersion",
+      "prefix": "libcurlVersion",
+      "displayText": "libcurlVersion()",
+      "description": "Report version of libcurl in use.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/libcurlVersion.html"
+    },
+    "library.dynam": {
+      "text": "library.dynam",
+      "snippet": "library.dynam",
+      "prefix": "library.dynam",
+      "displayText": ["library.dynam(chname, package, lib.loc,verbose = getOption(\"verbose\"),file.ext = .Platform$dynlib.ext, ...)", "library.dynam.unload(chname, libpath,verbose = getOption(\"verbose\"),file.ext = .Platform$dynlib.ext)", ".dynLibs(new)"],
+      "description": "Load the specified file of compiled code if it has not been loadedalready, or unloads it.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/library.dynam.html"
+    },
+    "license": {
+      "text": "license",
+      "snippet": "license",
+      "prefix": "license",
+      "displayText": ["license()", "licence()"],
+      "description": "The license terms under which R is distributed.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/license.html"
+    },
+    "list2env": {
+      "text": "list2env",
+      "snippet": "list2env",
+      "prefix": "list2env",
+      "displayText": "list2env(x, envir = NULL, parent = parent.frame(), hash = (length(x) > 100), size = max(29L, length(x))",
+      "description": "From a named list x, create anenvironment containing all list components as objects, or“multi-assign” from x into a pre-existing environment.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/list2env.html"
+    },
+    "load": {
+      "text": "load",
+      "snippet": "load",
+      "prefix": "load",
+      "displayText": "load(file, envir = parent.frame(), verbose = FALSE)",
+      "description": "Reload datasets written with the function save.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/load.html"
+    },
+    "Sys.localeconv": {
+      "text": "Sys.localeconv",
+      "snippet": "Sys.localeconv",
+      "prefix": "Sys.localeconv",
+      "displayText": "Sys.localeconv()",
+      "description": "Get details of the numerical and monetary representations in thecurrent locale.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Sys.localeconv.html"
+    },
+    "lower.tri": {
+      "text": "lower.tri",
+      "snippet": "lower.tri",
+      "prefix": "lower.tri",
+      "displayText": ["lower.tri(x, diag = FALSE)", "upper.tri(x, diag = FALSE)"],
+      "description": "Returns a matrix of logicals the same size of a given matrix withentries TRUE in the lower or upper triangle.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/lower.tri.html"
+    },
+    "ls": {
+      "text": "ls",
+      "snippet": "ls",
+      "prefix": "ls",
+      "displayText": ["ls(name, pos = -1L, envir = as.environment(pos), all.names = FALSE, pattern, sorted = TRUE)", "objects(name, pos= -1L, envir = as.environment(pos),all.names = FALSE, pattern, sorted = TRUE)"],
+      "description": "ls and objects return a vector of character stringsgiving the names of the objects in the specified environment.  Wheninvoked with no argument at the top level prompt, ls shows whatdata sets and functions a user has defined.  When invoked with noargument inside a function, ls returns the names of thefunction's local variables: this is useful in conjunction withbrowser.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/ls.html"
+    },
+    "make.names": {
+      "text": "make.names",
+      "snippet": "make.names",
+      "prefix": "make.names",
+      "displayText": "make.names(names, unique = FALSE, allow_ = TRUE)",
+      "description": "Make syntactically valid names out of character vectors.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/make.names.html"
+    },
+    "make.unique": {
+      "text": "make.unique",
+      "snippet": "make.unique",
+      "prefix": "make.unique",
+      "displayText": "make.unique(names, sep = \".\")",
+      "description": "Makes the elements of a character vector unique byappending sequence numbers to duplicates.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/make.unique.html"
+    },
+    "mapply": {
+      "text": "mapply",
+      "snippet": "mapply",
+      "prefix": "mapply",
+      "displayText": "mapply(FUN, ..., MoreArgs = NULL, SIMPLIFY = TRUE, USE.NAMES = TRUE)",
+      "description": "mapply is a multivariate version of sapply.mapply applies FUN to the first elements of each ...argument, the second elements, the third elements, and so on.Arguments are recycled if necessary.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/mapply.html"
+    },
+    "margin.table": {
+      "text": "margin.table",
+      "snippet": "margin.table",
+      "prefix": "margin.table",
+      "displayText": "margin.table(x, margin = NULL)",
+      "description": "For a contingency table in array form, compute the sum of tableentries for a given index.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/margin.table.html"
+    },
+    "mat.or.vec": {
+      "text": "mat.or.vec",
+      "snippet": "mat.or.vec",
+      "prefix": "mat.or.vec",
+      "displayText": "mat.or.vec(nr, nc)",
+      "description": "mat.or.vec creates an nr by nc zero matrix ifnc is greater than 1, and a zero vector of length nr ifnc equals 1.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/mat.or.vec.html"
+    },
+    "match": {
+      "text": "match",
+      "snippet": "match",
+      "prefix": "match",
+      "displayText": ["match(x, table, nomatch = NA_integer_, incomparables = NULL)", "x %in% table)"],
+      "description": "match returns a vector of the positions of (first) matches ofits first argument in its second.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/match.html"
+    },
+    "match.arg": {
+      "text": "match.arg",
+      "snippet": "match.arg",
+      "prefix": "match.arg",
+      "displayText": "match.arg(arg, choices, several.ok = FALSE)",
+      "description": "match.arg matches arg against a table of candidatevalues as specified by choices, where NULL means to takethe first one.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/match.arg.html"
+    },
+    "match.call": {
+      "text": "match.call",
+      "snippet": "match.call",
+      "prefix": "match.call",
+      "displayText": "match.call(definition = sys.function(sys.parent()), call = sys.call(sys.parent()), expand.dots = TRUE, envir = parent.frame(2L)",
+      "description": "match.call returns a call in which all of the specified arguments arespecified by their full names.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/match.call.html"
+    },
+    "match.fun": {
+      "text": "match.fun",
+      "snippet": "match.fun",
+      "prefix": "match.fun",
+      "displayText": "match.fun(FUN, descend = TRUE)",
+      "description": "When called inside functions that take a function as argument, extractthe desired function object while avoiding undesired matching toobjects of other types.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/match.fun.html"
+    },
+    "max": {
+      "text": "max",
+      "snippet": "max",
+      "prefix": "max",
+      "displayText": ["max(..., na.rm = FALSE)", "min(..., na.rm = FALSE)", "pmax(..., na.rm = FALSE)", "pmin(..., na.rm = FALSE)", "pmax.int(..., na.rm = FALSE)", "pmin.int(..., na.rm = FALSE)"],
+      "description": "Returns the (parallel) maxima and minima of the input values.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Extremes.html"
+    },
+    "max.col": {
+      "text": "max.col",
+      "snippet": "max.col",
+      "prefix": "max.col",
+      "displayText": "max.col(m, ties.method = c(\"random\", \"first\", \"last\")",
+      "description": "Find the maximum position for each row of a matrix, breaking ties at random.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/maxCol.html"
+    },
+    "mean": {
+      "text": "mean",
+      "snippet": "mean",
+      "prefix": "mean",
+      "displayText": ["mean(x, ...)", "mean(x, trim = 0, na.rm = FALSE, ...)"],
+      "description": "Generic function for the (trimmed) arithmetic mean.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/mean.html"
+    },
+    "memCompress": {
+      "text": "memCompress",
+      "snippet": "memCompress",
+      "prefix": "memCompress",
+      "displayText": ["memCompress(from, type = c(\"gzip\", \"bzip2\", \"xz\", \"none\"))", "memDecompress(from,type = c(\"unknown\", \"gzip\", \"bzip2\", \"xz\", \"none\"),asChar = FALSE)"],
+      "description": "In-memory compression or decompression for raw vectors.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/memCompress.html"
+    },
+    "memory.profile": {
+      "text": "memory.profile",
+      "snippet": "memory.profile",
+      "prefix": "memory.profile",
+      "displayText": "memory.profile()",
+      "description": "Lists the usage of the cons cells by SEXPREC type.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/memory.profile.html"
+    },
+    "merge": {
+      "text": "merge",
+      "snippet": "merge",
+      "prefix": "merge",
+      "displayText": ["merge(x, y, ...)", "merge(x, y, ...)", "merge(x, y, by = intersect(names(x), names(y)),by.x = by, by.y = by, all = FALSE, all.x = all, all.y = all,sort = TRUE, suffixes = c(\".x\",\".y\"),incomparables = NULL, ...)"],
+      "description": "Merge two data frames by common columns or row names, or do otherversions of database join operations.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/merge.html"
+    },
+    "message": {
+      "text": "message",
+      "snippet": "message",
+      "prefix": "message",
+      "displayText": ["message(..., domain = NULL, appendLF = TRUE)", "suppressMessages(expr)", "packageStartupMessage(..., domain = NULL, appendLF = TRUE)", "suppressPackageStartupMessages(expr)", ".makeMessage(..., domain = NULL, appendLF = FALSE)"],
+      "description": "Generate a diagnostic message from its arguments.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/message.html"
+    },
+    "missing": {
+      "text": "missing",
+      "snippet": "missing",
+      "prefix": "missing",
+      "displayText": "missing(x)",
+      "description": "missing can be used to test whether a value was specifiedas an argument to a function.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/missing.html"
+    },
+    "mode": {
+      "text": "mode",
+      "snippet": "mode",
+      "prefix": "mode",
+      "displayText": ["mode(x)", "mode(x) <- valuestorage.mode(x)", "storage.mode(x) <- value)"],
+      "description": "Get or set the type or storage mode of an object.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/mode.html"
+    },
+    "names": {
+      "text": "names",
+      "snippet": "names",
+      "prefix": "names",
+      "displayText": ["names(x)", "names(x) <- value)"],
+      "description": "Functions to get or set the names of an object.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/names.html"
+    },
+    "nargs": {
+      "text": "nargs",
+      "snippet": "nargs",
+      "prefix": "nargs",
+      "displayText": "nargs()",
+      "description": "When used inside a function body, nargs returns the number ofarguments supplied to that function, including positionalarguments left blank.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/nargs.html"
+    },
+    "nchar": {
+      "text": "nchar",
+      "snippet": "nchar",
+      "prefix": "nchar",
+      "displayText": ["nchar(x, type = \"chars\", allowNA = FALSE, keepNA = FALSE)", "nzchar(x, keepNA = FALSE)"],
+      "description": "nchar takes a character vector as an argument andreturns a vector whose elements contain the sizes ofthe corresponding elements of x.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/nchar.html"
+    },
+    "nrow": {
+      "text": "nrow",
+      "snippet": "nrow",
+      "prefix": "nrow",
+      "displayText": ["nrow(x)", "ncol(x)", "NCOL(x)", "NROW(x)"],
+      "description": "nrow and ncol return the number of rows or columnspresent in x.NCOL and NROW do the same treating a vector as1-column matrix.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/nrow.html"
+    },
+    "UseMethod": {
+      "text": "UseMethod",
+      "snippet": "UseMethod",
+      "prefix": "UseMethod",
+      "displayText": ["UseMethod(generic, object)", "NextMethod(generic = NULL, object = NULL, ...)"],
+      "description": "R possesses a simple generic function mechanism which can be used foran object-oriented style of programming.  Method dispatch takes placebased on the class(es) of the first argument to the generic function or ofthe object supplied as an argument to UseMethod or NextMethod.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/UseMethod.html"
+    },
+    "nlevels": {
+      "text": "nlevels",
+      "snippet": "nlevels",
+      "prefix": "nlevels",
+      "displayText": "nlevels(x)",
+      "description": "Return the number of levels which its argument has.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/nlevels.html"
+    },
+    "norm": {
+      "text": "norm",
+      "snippet": "norm",
+      "prefix": "norm",
+      "displayText": "norm(x, type = c(\"O\", \"I\", \"F\", \"M\", \"2\")",
+      "description": "Computes a matrix norm of x using LAPACK.  The norm can bethe one (\"O\") norm, the infinity (\"I\") norm, theFrobenius (\"F\") norm, the maximum modulus (\"M\") amongelements of a matrix, or the “spectral” or \"2\"-norm, asdetermined by the value of type.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/norm.html"
+    },
+    "normalizePath": {
+      "text": "normalizePath",
+      "snippet": "normalizePath",
+      "prefix": "normalizePath",
+      "displayText": "normalizePath(path, winslash = \"\\\\\", mustWork = NA)",
+      "description": "Convert file paths to canonical form for the platform, to display themin a user-understandable form and so that relative and absolute paths canbe compared.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/normalizePath.html"
+    },
+    ".NotYetImplemented": {
+      "text": ".NotYetImplemented",
+      "snippet": ".NotYetImplemented",
+      "prefix": ".NotYetImplemented",
+      "displayText": [".NotYetImplemented()", ".NotYetUsed(arg, error = TRUE)"],
+      "description": "In order to pinpoint missing functionality, the R core team usesthese functions for missing R functions and not yet used arguments ofexisting R functions (which are typically there for compatibilitypurposes).",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/notyet.html"
+    },
+    "Sys.timezone": {
+      "text": "Sys.timezone",
+      "snippet": "Sys.timezone",
+      "prefix": "Sys.timezone",
+      "displayText": ["Sys.timezone(location = TRUE)", "OlsonNames()"],
+      "description": "Information about time zones in R.  Sys.timezone returnsthe name of the current time zone.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/timezones.html"
+    },
+    "on.exit": {
+      "text": "on.exit",
+      "snippet": "on.exit",
+      "prefix": "on.exit",
+      "displayText": "on.exit(expr = NULL, add = FALSE)",
+      "description": "on.exit records the expression given as its argument as needingto be executed when the current function exits (either naturally or asthe result of an error).  This is useful for resetting graphicalparameters or performing other cleanup actions.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/on.exit.html"
+    },
+    "order": {
+      "text": "order",
+      "snippet": "order",
+      "prefix": "order",
+      "displayText": ["order(..., na.last = TRUE, decreasing = FALSE)", "sort.list(x, partial = NULL, na.last = TRUE, decreasing = FALSE,method = c(\"shell\", \"quick\", \"radix\")"],
+      "description": "order returns a permutation which rearranges its firstargument into ascending or descending order, breaking ties by furtherarguments. sort.list is the same, using only one argument.See the examples for how to use these functions to sort data frames,etc.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/order.html"
+    },
+    "outer": {
+      "text": "outer",
+      "snippet": "outer",
+      "prefix": "outer",
+      "displayText": ["outer(X, Y, FUN = \"*\", ...)", "X %o% Y)"],
+      "description": "The outer product of the arrays X and Y is the arrayA with dimension c(dim(X), dim(Y)) where elementA[c(arrayindex.x, arrayindex.y)]    = FUN(X[arrayindex.x], Y[arrayindex.y], ...).",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/outer.html"
+    },
+    "258": {
+      "text": "",
+      "snippet": "",
+      "prefix": "",
+      "displayText": ["( \\dots )", "{ \\dots })"],
+      "description": "Open parenthesis, (, and open brace, {, are.Primitive functions in R.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Paren.html"
+    },
+    "sys.call": {
+      "text": "sys.call",
+      "snippet": "sys.call",
+      "prefix": "sys.call",
+      "displayText": ["sys.call(which = 0)", "sys.frame(which = 0)", "sys.nframe()", "sys.function(which = 0)", "sys.parent(n = 1)", "sys.calls()", "sys.frames()", "sys.parents()", "sys.on.exit()", "sys.status()", "parent.frame(n = 1)"],
+      "description": "These functions provide access to environments(‘frames’ in S terminology) associated with functions furtherup the calling stack.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/sys.parent.html"
+    },
+    "parse": {
+      "text": "parse",
+      "snippet": "parse",
+      "prefix": "parse",
+      "displayText": "parse(file = \"\", n = NULL, text = NULL, prompt = \"?\",keep.source = getOption(\"keep.source\"), srcfile,encoding = \"unknown\")",
+      "description": "parse returns the parsed but unevaluated expressions in alist.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/parse.html"
+    },
+    "paste ": {
+      "text": "paste ",
+      "snippet": "paste ",
+      "prefix": "paste ",
+      "displayText": ["paste (..., sep = \" \", collapse = NULL)", "paste0(..., collapse = NULL)"],
+      "description": "Concatenate vectors after converting to character.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/paste.html"
+    },
+    "path.expand": {
+      "text": "path.expand",
+      "snippet": "path.expand",
+      "prefix": "path.expand",
+      "displayText": "path.expand(path)",
+      "description": "Expand a path name, for example by replacing a leading tilde by theuser's home directory (if defined on that platform).",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/path.expand.html"
+    },
+    "pcre_config": {
+      "text": "pcre_config",
+      "snippet": "pcre_config",
+      "prefix": "pcre_config",
+      "displayText": "pcre_config()",
+      "description": "Report some of the configuration options of the version of PCRE in usein this R session.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/pcre_config.html"
+    },
+    "pmatch": {
+      "text": "pmatch",
+      "snippet": "pmatch",
+      "prefix": "pmatch",
+      "displayText": "pmatch(x, table, nomatch = NA_integer_, duplicates.ok = FALSE)",
+      "description": "pmatch seeks matches for the elements of its first argumentamong those of its second.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/pmatch.html"
+    },
+    "polyroot": {
+      "text": "polyroot",
+      "snippet": "polyroot",
+      "prefix": "polyroot",
+      "displayText": "polyroot(z)",
+      "description": "Find zeros of a real or complex polynomial.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/polyroot.html"
+    },
+    "pos.to.env": {
+      "text": "pos.to.env",
+      "snippet": "pos.to.env",
+      "prefix": "pos.to.env",
+      "displayText": "pos.to.env(x)",
+      "description": "Returns the environment at a specified position in the search path.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/pos.to.env.html"
+    },
+    "pretty": {
+      "text": "pretty",
+      "snippet": "pretty",
+      "prefix": "pretty",
+      "displayText": ["pretty(x, ...)", "pretty(x, n = 5, min.n = n %/% 3,shrink.sml = 0.75, high.u.bias = 1.5, u5.bias = .5 + 1.5*high.u.bias, eps.correct = 0, ...)"],
+      "description": "Compute a  sequence of about n+1 equally spaced ‘round’values which cover the range of the values in x.The values are chosen so that they are 1, 2 or 5 times a power of 10.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/pretty.html"
+    },
+    ".Primitive": {
+      "text": ".Primitive",
+      "snippet": ".Primitive",
+      "prefix": ".Primitive",
+      "displayText": ".Primitive(name)",
+      "description": ".Primitive looks up by name a ‘primitive’(internally implemented) function.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Primitive.html"
+    },
+    "print.1": {
+      "text": "print",
+      "snippet": "print",
+      "prefix": "print",
+      "displayText": ["print(x, ...)", "print(x, quote = FALSE, max.levels = NULL,width = getOption(\"width\"), ...)", "print(x, digits = getOption(\"digits\"), quote = FALSE,na.print = \"\", zero.print = \"0\", justify = \"none\", ...)", "print(x, useSource = TRUE, ...)"],
+      "description": "print prints its argument and returns it invisibly (viainvisible(x)).  It is a generic function which means thatnew printing methods can be easily added for new classes.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/print.html"
+    },
+    "print.2": {
+      "text": "print",
+      "snippet": "print",
+      "prefix": "print",
+      "displayText": "print(x, ..., digits = NULL,quote = FALSE, right = TRUE, row.names = TRUE)",
+      "description": "Print a data frame.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/print.dataframe.html"
+    },
+    "print.3": {
+      "text": "print",
+      "snippet": "print",
+      "prefix": "print",
+      "displayText": "print(x, digits = NULL, quote = TRUE,na.print = NULL, print.gap = NULL, right = FALSE,max = NULL, useSource = TRUE, ...)",
+      "description": "print.default is the default method of the genericprint function which prints its argument.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/print.default.html"
+    },
+    "proc.time": {
+      "text": "proc.time",
+      "snippet": "proc.time",
+      "prefix": "proc.time",
+      "displayText": "proc.time()",
+      "description": "proc.time determines how much real and CPU time (in seconds)the currently running R process has already taken.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/proc.time.html"
+    },
+    "prmatrix": {
+      "text": "prmatrix",
+      "snippet": "prmatrix",
+      "prefix": "prmatrix",
+      "displayText": "prmatrix(x, rowlab =, collab =, quote = TRUE, right = FALSE, na.print = NULL, ...)",
+      "description": "An earlier method for printing matrices, provided for S compatibility.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/prmatrix.html"
+    },
+    "prod": {
+      "text": "prod",
+      "snippet": "prod",
+      "prefix": "prod",
+      "displayText": "prod(..., na.rm = FALSE)",
+      "description": "prod returns the product of all the valuespresent in its arguments.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/prod.html"
+    },
+    "prop.table": {
+      "text": "prop.table",
+      "snippet": "prop.table",
+      "prefix": "prop.table",
+      "displayText": "prop.table(x, margin = NULL)",
+      "description": "This is really sweep(x, margin, margin.table(x, margin), \"/\")for newbies, except that if margin has length zero, then onegets x/sum(x).",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/prop.table.html"
+    },
+    "quit": {
+      "text": "quit",
+      "snippet": "quit",
+      "prefix": "quit",
+      "displayText": ["quit(save = \"default\", status = 0, runLast = TRUE)", " q(save = \"default\", status = 0, runLast = TRUE)"],
+      "description": "The function quit or its alias q terminate the currentR session.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/quit.html"
+    },
+    "qr.X": {
+      "text": "qr.X",
+      "snippet": "qr.X",
+      "prefix": "qr.X",
+      "displayText": ["qr.X(qr, complete = FALSE, ncol =)", "qr.Q(qr, complete = FALSE, Dvec =)", "qr.R(qr, complete = FALSE, ...)"],
+      "description": "Returns the original matrix from which the object was constructed orthe components of the decomposition.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/qraux.html"
+    },
+    "R.home": {
+      "text": "R.home",
+      "snippet": "R.home",
+      "prefix": "R.home",
+      "displayText": "R.home(component = \"home\")",
+      "description": "Return the R home directory, or the full path to a component of theR installation.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Rhome.html"
+    },
+    "R.Version": {
+      "text": "R.Version",
+      "snippet": "R.Version",
+      "prefix": "R.Version",
+      "displayText": ["R.Version()", "R.versionR.version.stringversion)"],
+      "description": "R.Version() provides detailed information about the version ofR running.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Version.html"
+    },
+    ".Random.seed <- c": {
+      "text": ".Random.seed <- c",
+      "snippet": ".Random.seed <- c",
+      "prefix": ".Random.seed <- c",
+      "displayText": [".Random.seed <- c(rng.kind, n1, n2, \\dots)", "RNGkind(kind = NULL, normal.kind = NULL)", "RNGversion(vstr)", "set.seed(seed, kind = NULL, normal.kind = NULL)"],
+      "description": ".Random.seed is an integer vector, containing the random numbergenerator (RNG) state for random number generation in R.  Itcan be saved and restored, but should not be altered by the user.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Random.html"
+    },
+    "range": {
+      "text": "range",
+      "snippet": "range",
+      "prefix": "range",
+      "displayText": ["range(..., na.rm = FALSE)", "range(..., na.rm = FALSE, finite = FALSE)"],
+      "description": "range returns a vector containing the minimum and maximum ofall the given arguments.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/range.html"
+    },
+    "rank": {
+      "text": "rank",
+      "snippet": "rank",
+      "prefix": "rank",
+      "displayText": "rank(x, na.last = TRUE, ties.method = c(\"average\", \"first\", \"random\", \"max\", \"min\")",
+      "description": "Returns the sample ranks of the values in a vector.  Ties (i.e., equalvalues) and missing values can be handled in several ways.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/rank.html"
+    },
+    "rapply": {
+      "text": "rapply",
+      "snippet": "rapply",
+      "prefix": "rapply",
+      "displayText": "rapply(object, f, classes = \"ANY\", deflt = NULL, how = c(\"unlist\", \"replace\", \"list\"), ...)",
+      "description": "rapply is a recursive version of lapply.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/rapply.html"
+    },
+    "rawConnection": {
+      "text": "rawConnection",
+      "snippet": "rawConnection",
+      "prefix": "rawConnection",
+      "displayText": ["rawConnection(object, open = \"r\")", "rawConnectionValue(con)"],
+      "description": "Input and output raw connections.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/rawConnection.html"
+    },
+    "read.dcf": {
+      "text": "read.dcf",
+      "snippet": "read.dcf",
+      "prefix": "read.dcf",
+      "displayText": ["read.dcf(file, fields = NULL, all = FALSE, keep.white = NULL)", "write.dcf(x, file = \"\", append = FALSE,indent = 0.1 * getOption(\"width\"),width = 0.9 * getOption(\"width\"),keep.white = NULL)"],
+      "description": "Reads or writes an R object from/to a file in Debian Control Fileformat.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/dcf.html"
+    },
+    "readBin": {
+      "text": "readBin",
+      "snippet": "readBin",
+      "prefix": "readBin",
+      "displayText": ["readBin(con, what, n = 1L, size = NA_integer_, signed = TRUE,endian = .Platform$endian)", "writeBin(object, con, size = NA_integer_, endian = .Platform$endian, useBytes = FALSE)"],
+      "description": "Read binary data from or write binary data to a connection or raw vector.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/readBin.html"
+    },
+    "readChar": {
+      "text": "readChar",
+      "snippet": "readChar",
+      "prefix": "readChar",
+      "displayText": ["readChar(con, nchars, useBytes = FALSE)", "writeChar(object, con, nchars = nchar(object, type = \"chars\"),eos = \"\", useBytes = FALSE)"],
+      "description": "Transfer character strings to and from connections, without assumingthey are null-terminated on the connection.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/readChar.html"
+    },
+    "readline": {
+      "text": "readline",
+      "snippet": "readline",
+      "prefix": "readline",
+      "displayText": "readline(prompt = \"\")",
+      "description": "readline reads a line from the terminal (in interactive use).",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/readline.html"
+    },
+    "readLines": {
+      "text": "readLines",
+      "snippet": "readLines",
+      "prefix": "readLines",
+      "displayText": "readLines(con = stdin(), n = -1L, ok = TRUE, warn = TRUE,encoding = \"unknown\", skipNul = FALSE)",
+      "description": "Read some or all text lines from a connection.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/readLines.html"
+    },
+    "saveRDS": {
+      "text": "saveRDS",
+      "snippet": "saveRDS",
+      "prefix": "saveRDS",
+      "displayText": ["saveRDS(object, file = \"\", ascii = FALSE, version = NULL,compress = TRUE, refhook = NULL)", "readRDS(file, refhook = NULL)"],
+      "description": "Functions to write a single R object to a file, and to restore it.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/readRDS.html"
+    },
+    "readRenviron": {
+      "text": "readRenviron",
+      "snippet": "readRenviron",
+      "prefix": "readRenviron",
+      "displayText": "readRenviron(path)",
+      "description": "Read as file such as ‘.Renviron’ or ‘Renviron.site’ in theformat described in the help for Startup, and set environmentvariables as defined in the file.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/readRenviron.html"
+    },
+    "Recall": {
+      "text": "Recall",
+      "snippet": "Recall",
+      "prefix": "Recall",
+      "displayText": "Recall(...)",
+      "description": "Recall is used as a placeholder for the name of the functionin which it is called.  It allows the definition of recursivefunctions which still work after being renamed, see example below.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Recall.html"
+    },
+    "regmatches": {
+      "text": "regmatches",
+      "snippet": "regmatches",
+      "prefix": "regmatches",
+      "displayText": ["regmatches(x, m, invert = FALSE)", "regmatches(x, m, invert = FALSE) <- value)"],
+      "description": "Extract or replace matched substrings from match data obtained byregexpr, gregexpr orregexec.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/regmatches.html"
+    },
+    "remove": {
+      "text": "remove",
+      "snippet": "remove",
+      "prefix": "remove",
+      "displayText": ["remove(..., list = character(), pos = -1, envir = as.environment(pos), inherits = FALSE)", "rm(..., list = character(), pos = -1, envir = as.environment(pos), inherits = FALSE)"],
+      "description": "remove and rm can be used to remove objects.  These canbe specified successively as character strings, or in the charactervector list, or through a combination of both.  All objectsthus specified will be removed.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/rm.html"
+    },
+    "rep": {
+      "text": "rep",
+      "snippet": "rep",
+      "prefix": "rep",
+      "displayText": ["rep(x, ...)", "rep.int(x, times)", "rep_len(x, length.out)"],
+      "description": "rep replicates the values in x.  It is a genericfunction, and the (internal) default method is described here.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/rep.html"
+    },
+    "replace": {
+      "text": "replace",
+      "snippet": "replace",
+      "prefix": "replace",
+      "displayText": "replace(x, list, values)",
+      "description": "replace replaces the values in xwith indices given in list by those given in values.If necessary, the values in values are recycled.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/replace.html"
+    },
+    "tracemem": {
+      "text": "tracemem",
+      "snippet": "tracemem",
+      "prefix": "tracemem",
+      "displayText": ["tracemem(x)", "untracemem(x)", "retracemem(x, previous = NULL)"],
+      "description": "This function marks an object so that a message is printed whenever theinternal code copies the object.  It is amajor cause of hard-to-predict memory use in R.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/tracemem.html"
+    },
+    "trace": {
+      "text": "trace",
+      "snippet": "trace",
+      "prefix": "trace",
+      "displayText": ["trace(what, tracer, exit, at, print, signature,where = topenv(parent.frame()), edit = FALSE)", "untrace(what, signature = NULL, where = topenv(parent.frame()))", "tracingState(on = NULL)", ".doTrace(expr, msg)", "returnValue(default = NULL)"],
+      "description": "A call to trace allows you to insert debugging code (e.g., acall to browser or recover) at chosenplaces in any function.  A call to untrace cancels the tracing.Specified methods can be traced the same way, without tracing allcalls to the function.  Trace code can be any R expression.  Tracingcan be temporarily turned on or off globally by calling tracingState.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/trace.html"
+    },
+    "rev": {
+      "text": "rev",
+      "snippet": "rev",
+      "prefix": "rev",
+      "displayText": "rev(x)",
+      "description": "rev provides a reversed version of its argument.  It is genericfunction with a default method for vectors and one fordendrograms.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/rev.html"
+    },
+    "round": {
+      "text": "round",
+      "snippet": "round",
+      "prefix": "round",
+      "displayText": ["round(x, units = c(\"secs\", \"mins\", \"hours\", \"days\")", "trunc(x, units = c(\"secs\", \"mins\", \"hours\", \"days\"), ...)", "round(x, ...)", "trunc(x, ...)"],
+      "description": "Round or truncate date-time objects.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/round.POSIXt.html"
+    },
+    "row": {
+      "text": "row",
+      "snippet": "row",
+      "prefix": "row",
+      "displayText": "row(x, as.factor = FALSE)",
+      "description": "Returns a matrix of integers indicating their row number in amatrix-like object, or a factor indicating the row labels.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/row.html"
+    },
+    "row.names": {
+      "text": "row.names",
+      "snippet": "row.names",
+      "prefix": "row.names",
+      "displayText": ["row.names(x)", "row.names(x) <- value)"],
+      "description": "All data frames have a row names attribute, a character vector oflength the number of rows with no duplicates nor missing values.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/row.names.html"
+    },
+    "rowsum": {
+      "text": "rowsum",
+      "snippet": "rowsum",
+      "prefix": "rowsum",
+      "displayText": ["rowsum(x, group, reorder = TRUE, ...)", "rowsum(x, group, reorder = TRUE, na.rm = FALSE, ...)", "rowsum(x, group, reorder = TRUE, na.rm = FALSE, ...)"],
+      "description": "Compute column sums across rows of a numeric matrix-like object foreach level of a grouping variable.  rowsum is generic, with amethod for data frames and a default method for vectors and matrices.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/rowsum.html"
+    },
+    ".libPaths": {
+      "text": ".libPaths",
+      "snippet": ".libPaths",
+      "prefix": ".libPaths",
+      "displayText": [".libPaths(new)", ".Library.Library.site)"],
+      "description": ".libPaths gets/sets the library trees within which packages arelooked for.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/libPaths.html"
+    },
+    "sample": {
+      "text": "sample",
+      "snippet": "sample",
+      "prefix": "sample",
+      "displayText": ["sample(x, size, replace = FALSE, prob = NULL)", "sample.int(n, size = n, replace = FALSE, prob = NULL)"],
+      "description": "sample takes a sample of the specified size from the elementsof x using either with or without replacement.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/sample.html"
+    },
+    "save": {
+      "text": "save",
+      "snippet": "save",
+      "prefix": "save",
+      "displayText": ["save(..., list = character(), file = stop(\"'file' must be specified\"), ascii = FALSE, version = NULL, envir = parent.frame(), compress = isTRUE(!ascii), compression_level, eval.promises = TRUE, precheck = TRUE)", "save.image(file = \".RData\", version = NULL, ascii = FALSE, compress = !ascii, safe = TRUE)"],
+      "description": "save writes an external representation of R objects to thespecified file.  The objects can be read back from the file at a laterdate by using the function load or attach(or data in some cases).",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/save.html"
+    },
+    "scale": {
+      "text": "scale",
+      "snippet": "scale",
+      "prefix": "scale",
+      "displayText": "scale(x, center = TRUE, scale = TRUE)",
+      "description": "scale is generic function whose default method centers and/orscales the columns of a numeric matrix.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/scale.html"
+    },
+    "scan": {
+      "text": "scan",
+      "snippet": "scan",
+      "prefix": "scan",
+      "displayText": "scan(file = \"\", what = double(), nmax = -1, n = -1, sep = \"\", quote = if(identical(sep, \"\\n\")) \"\" else \"'\\\"\", dec = \".\", skip = 0, nlines = 0, na.strings = \"NA\", flush = FALSE, fill = FALSE, strip.white = FALSE, quiet = FALSE, blank.lines.skip = TRUE, multi.line = TRUE, comment.char = \"\", allowEscapes = FALSE, fileEncoding = \"\", encoding = \"unknown\", text, skipNul = FALSE)",
+      "description": "Read data into a vector or list from the console or file.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/scan.html"
+    },
+    "search": {
+      "text": "search",
+      "snippet": "search",
+      "prefix": "search",
+      "displayText": ["search()", "searchpaths()"],
+      "description": "Gives a list of attached packages(see library), and R objects, usuallydata.frames.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/search.html"
+    },
+    "seq": {
+      "text": "seq",
+      "snippet": "seq",
+      "prefix": "seq",
+      "displayText": ["seq(...)", "seq(from = 1, to = 1, by = ((to - from)/(length.out - 1)),length.out = NULL, along.with = NULL, ...)", "seq.int(from, to, by, length.out, along.with, ...)", "seq_along(along.with)", "seq_len(length.out)"],
+      "description": "Generate regular sequences.  seq is a standard generic with adefault method.  seq.int is a primitive which can bemuch faster but has a few restrictions.  seq_along andseq_len are very fast primitives for two common cases.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/seq.html"
+    },
+    "seq.1": {
+      "text": "seq",
+      "snippet": "seq",
+      "prefix": "seq",
+      "displayText": "seq(from, to, by, length.out = NULL, along.with = NULL, ...)",
+      "description": "The method for seq for objects of class class\"Date\" representing calendar dates.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/seq.Date.html"
+    },
+    "seq.2": {
+      "text": "seq",
+      "snippet": "seq",
+      "prefix": "seq",
+      "displayText": "seq(from, to, by, length.out = NULL, along.with = NULL, ...)",
+      "description": "The method for seq for date-time classes.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/seq.POSIXt.html"
+    },
+    "sequence": {
+      "text": "sequence",
+      "snippet": "sequence",
+      "prefix": "sequence",
+      "displayText": "sequence(nvec)",
+      "description": "For each element of nvec the sequence seq_len(nvec[i])is created.  These are concatenated and the result returned.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/sequence.html"
+    },
+    "serialize": {
+      "text": "serialize",
+      "snippet": "serialize",
+      "prefix": "serialize",
+      "displayText": ["serialize(object, connection, ascii, xdr = TRUE,version = NULL, refhook = NULL)", "unserialize(connection, refhook = NULL)"],
+      "description": "A simple low-level interface for serializing to connections.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/serialize.html"
+    },
+    "setTimeLimit": {
+      "text": "setTimeLimit",
+      "snippet": "setTimeLimit",
+      "prefix": "setTimeLimit",
+      "displayText": ["setTimeLimit(cpu = Inf, elapsed = Inf, transient = FALSE)", "setSessionTimeLimit(cpu = Inf, elapsed = Inf)"],
+      "description": "Functions to set CPU and/or elapsed time limits for top-levelcomputations or the current session.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/setTimeLimit.html"
+    },
+    "system": {
+      "text": "system",
+      "snippet": "system",
+      "prefix": "system",
+      "displayText": "system(command, intern = FALSE, ignore.stdout = FALSE, ignore.stderr = FALSE, wait = TRUE, input = NULL, show.output.on.console = TRUE, minimized = FALSE, invisible = TRUE)",
+      "description": "system invokes the OS command specified by command.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/system.html"
+    },
+    "shQuote": {
+      "text": "shQuote",
+      "snippet": "shQuote",
+      "prefix": "shQuote",
+      "displayText": "shQuote(string, type = c(\"sh\", \"csh\", \"cmd\", \"cmd2\")",
+      "description": "Quote a string to be passed to an operating system shell.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/shQuote.html"
+    },
+    "sign": {
+      "text": "sign",
+      "snippet": "sign",
+      "prefix": "sign",
+      "displayText": "sign(x)",
+      "description": "sign returns a vector with the signs of the correspondingelements of x (the sign of a real number is 1, 0, or -1if the number is positive, zero, or negative, respectively).",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/sign.html"
+    },
+    "sink": {
+      "text": "sink",
+      "snippet": "sink",
+      "prefix": "sink",
+      "displayText": ["sink(file = NULL, append = FALSE, type = c(\"output\", \"message\"), split = FALSE)", "sink.number(type = c(\"output\", \"message\")"],
+      "description": "sink diverts R output to a connection (and stops such diversions).",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/sink.html"
+    },
+    "slice.index": {
+      "text": "slice.index",
+      "snippet": "slice.index",
+      "prefix": "slice.index",
+      "displayText": "slice.index(x, MARGIN)",
+      "description": "Returns a matrix of integers indicating the number of their slice in agiven array.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/slice.index.html"
+    },
+    "socketSelect": {
+      "text": "socketSelect",
+      "snippet": "socketSelect",
+      "prefix": "socketSelect",
+      "displayText": "socketSelect(socklist, write = FALSE, timeout = NULL)",
+      "description": "Waits for the first of several socket connections to become available.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/socketSelect.html"
+    },
+    "solve": {
+      "text": "solve",
+      "snippet": "solve",
+      "prefix": "solve",
+      "displayText": ["solve(a, b, ...)", "solve(a, b, tol, LINPACK = FALSE, ...)"],
+      "description": "This generic function solves the equation a %*% x = b for x,where b can be either a vector or a matrix.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/solve.html"
+    },
+    "sort": {
+      "text": "sort",
+      "snippet": "sort",
+      "prefix": "sort",
+      "displayText": ["sort(x, decreasing = FALSE, ...)", "sort(x, decreasing = FALSE, na.last = NA, ...)", "sort.int(x, partial = NULL, na.last = NA, decreasing = FALSE, method = c(\"shell\", \"quick\"), index.return = FALSE)"],
+      "description": "Sort (or order) a vector or factor (partially) intoascending or descending order.  For ordering along more than onevariable, e.g., for sorting data frames, see order.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/sort.html"
+    },
+    "source": {
+      "text": "source",
+      "snippet": "source",
+      "prefix": "source",
+      "displayText": "source(file, local = FALSE, echo = verbose, print.eval = echo, verbose = getOption(\"verbose\"), prompt.echo = getOption(\"prompt\"), max.deparse.length = 150, chdir = FALSE, encoding = getOption(\"encoding\"), continue.echo = getOption(\"continue\"), skip.echo = 0, keep.source = getOption(\"keep.source\")",
+      "description": "source causes R to accept its input from the named file or URLor connection.  Input is read and parsed from that fileuntil the end of the file is reached, then the parsed expressions areevaluated sequentially in the chosen environment.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/source.html"
+    },
+    "split": {
+      "text": "split",
+      "snippet": "split",
+      "prefix": "split",
+      "displayText": ["split(x, f, drop = FALSE, ...)", "split(x, f, drop = FALSE, ...) <- valueunsplit(value, f, drop = FALSE)"],
+      "description": "split divides the data in the vector x into the groupsdefined by f.  The replacement forms replace valuescorresponding to such a division.  unsplit reverses the effect ofsplit.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/split.html"
+    },
+    "stopifnot": {
+      "text": "stopifnot",
+      "snippet": "stopifnot",
+      "prefix": "stopifnot",
+      "displayText": "stopifnot(...)",
+      "description": "If any of the expressions in ... are not allTRUE, stop is called, producing an error messageindicating the first of the elements of ... which werenot true.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/stopifnot.html"
+    },
+    "strrep": {
+      "text": "strrep",
+      "snippet": "strrep",
+      "prefix": "strrep",
+      "displayText": "strrep(x, times)",
+      "description": "Repeat the character strings in a character vector a given number oftimes (i.e., concatenate the respective numbers of copies of thestrings).",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/strrep.html"
+    },
+    "strsplit": {
+      "text": "strsplit",
+      "snippet": "strsplit",
+      "prefix": "strsplit",
+      "displayText": "strsplit(x, split, fixed = FALSE, perl = FALSE, useBytes = FALSE)",
+      "description": "Split the elements of a character vector x into substringsaccording to the matches to substring split within them.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/strsplit.html"
+    },
+    "strtoi": {
+      "text": "strtoi",
+      "snippet": "strtoi",
+      "prefix": "strtoi",
+      "displayText": "strtoi(x, base = 0L)",
+      "description": "Convert strings to integers according to the given base using the Cfunction strtol, or choose a suitable base following the C rules.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/strtoi.html"
+    },
+    "strtrim": {
+      "text": "strtrim",
+      "snippet": "strtrim",
+      "prefix": "strtrim",
+      "displayText": "strtrim(x, width)",
+      "description": "Trim character strings to specified display widths.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/strtrim.html"
+    },
+    "structure": {
+      "text": "structure",
+      "snippet": "structure",
+      "prefix": "structure",
+      "displayText": "structure(.Data, ...)",
+      "description": "structure returns the given object with furtherattributes set.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/structure.html"
+    },
+    "strwrap": {
+      "text": "strwrap",
+      "snippet": "strwrap",
+      "prefix": "strwrap",
+      "displayText": "strwrap(x, width = 0.9 * getOption(\"width\"), indent = 0,exdent = 0, prefix = \"\", simplify = TRUE, initial = prefix)",
+      "description": "Each character string in the input is first split into paragraphs (orlines containing whitespace only).  The paragraphs are then formattedby breaking lines at word boundaries.  The target columns for wrappinglines and the indentation of the first and all subsequent lines of aparagraph can be controlled independently.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/strwrap.html"
+    },
+    "subset": {
+      "text": "subset",
+      "snippet": "subset",
+      "prefix": "subset",
+      "displayText": ["subset(x, ...)", "subset(x, subset, ...)", "subset(x, subset, select, drop = FALSE, ...)", "subset(x, subset, select, drop = FALSE, ...)"],
+      "description": "Return subsets of vectors, matrices or data frames which meet conditions.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/subset.html"
+    },
+    "substr": {
+      "text": "substr",
+      "snippet": "substr",
+      "prefix": "substr",
+      "displayText": ["substr(x, start, stop)", "substring(text, first, last = 1000000L)", "substr(x, start, stop) <- valuesubstring(text, first, last = 1000000L) <- value)"],
+      "description": "Extract or replace substrings in a character vector.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/substr.html"
+    },
+    "sum": {
+      "text": "sum",
+      "snippet": "sum",
+      "prefix": "sum",
+      "displayText": "sum(..., na.rm = FALSE)",
+      "description": "sum returns the sum of all the valuespresent in its arguments.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/sum.html"
+    },
+    "warning": {
+      "text": "warning",
+      "snippet": "warning",
+      "prefix": "warning",
+      "displayText": ["warning(..., call. = TRUE, immediate. = FALSE, noBreaks. = FALSE,domain = NULL)", "suppressWarnings(expr)"],
+      "description": "Generates a warning message that corresponds to its argument(s) and(optionally) the expression or function from which it was called.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/warning.html"
+    },
+    "sweep": {
+      "text": "sweep",
+      "snippet": "sweep",
+      "prefix": "sweep",
+      "displayText": "sweep(x, MARGIN, STATS, FUN = \"-\", check.margin = TRUE, ...)",
+      "description": "Return an array obtained from an input array by sweeping out a summarystatistic.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/sweep.html"
+    },
+    "switch": {
+      "text": "switch",
+      "snippet": "switch",
+      "prefix": "switch",
+      "displayText": "switch(EXPR, ...)",
+      "description": "switch evaluates EXPR and accordingly chooses one of thefurther arguments (in ...).",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/switch.html"
+    },
+    "Sys.time": {
+      "text": "Sys.time",
+      "snippet": "Sys.time",
+      "prefix": "Sys.time",
+      "displayText": ["Sys.time()", "Sys.Date()"],
+      "description": "Sys.time and Sys.Date returns the system's idea of thecurrent date with and without time.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Sys.time.html"
+    },
+    "Sys.getenv": {
+      "text": "Sys.getenv",
+      "snippet": "Sys.getenv",
+      "prefix": "Sys.getenv",
+      "displayText": "Sys.getenv(x = NULL, unset = \"\", names = NA)",
+      "description": "Sys.getenv obtains the values of the environment variables.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Sys.getenv.html"
+    },
+    "Sys.getpid": {
+      "text": "Sys.getpid",
+      "snippet": "Sys.getpid",
+      "prefix": "Sys.getpid",
+      "displayText": "Sys.getpid()",
+      "description": "Get the process ID of the R Session.  It is guaranteed by theoperating system that two R sessions running simultaneously willhave different IDs, but it is possible that R sessions running atdifferent times will have the same ID.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Sys.getpid.html"
+    },
+    "Sys.glob": {
+      "text": "Sys.glob",
+      "snippet": "Sys.glob",
+      "prefix": "Sys.glob",
+      "displayText": "Sys.glob(paths, dirmark = FALSE)",
+      "description": "Function to do wildcard expansion (also known as ‘globbing’) onfile paths.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Sys.glob.html"
+    },
+    "Sys.info": {
+      "text": "Sys.info",
+      "snippet": "Sys.info",
+      "prefix": "Sys.info",
+      "displayText": "Sys.info()",
+      "description": "Reports system and user information.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Sys.info.html"
+    },
+    "Sys.readlink": {
+      "text": "Sys.readlink",
+      "snippet": "Sys.readlink",
+      "prefix": "Sys.readlink",
+      "displayText": "Sys.readlink(paths)",
+      "description": "Find out if a file path is a symbolic link, and if so what it islinked to, via the system call readlink.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Sys.readlink.html"
+    },
+    "Sys.setenv": {
+      "text": "Sys.setenv",
+      "snippet": "Sys.setenv",
+      "prefix": "Sys.setenv",
+      "displayText": ["Sys.setenv(...)", "Sys.unsetenv(x)"],
+      "description": "Sys.setenv sets environment variables (for other processescalled from within R or future calls to Sys.getenv fromthis R process).",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Sys.setenv.html"
+    },
+    "Sys.setFileTime": {
+      "text": "Sys.setFileTime",
+      "snippet": "Sys.setFileTime",
+      "prefix": "Sys.setFileTime",
+      "displayText": "Sys.setFileTime(path, time)",
+      "description": "Uses system calls to set the times on a file or directory.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Sys.setFileTime.html"
+    },
+    "Sys.sleep": {
+      "text": "Sys.sleep",
+      "snippet": "Sys.sleep",
+      "prefix": "Sys.sleep",
+      "displayText": "Sys.sleep(time)",
+      "description": "Suspend execution of R expressions for a specified time interval.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Sys.sleep.html"
+    },
+    "sys.source": {
+      "text": "sys.source",
+      "snippet": "sys.source",
+      "prefix": "sys.source",
+      "displayText": "sys.source(file, envir = baseenv(), chdir = FALSE, keep.source = getOption(\"keep.source.pkgs\")",
+      "description": "Parses expressions in the given file, and then successively evaluatesthem in the specified environment.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/sys.source.html"
+    },
+    "Sys.which": {
+      "text": "Sys.which",
+      "snippet": "Sys.which",
+      "prefix": "Sys.which",
+      "displayText": "Sys.which(names)",
+      "description": "This is an interface to the system command which, or to anemulation on Windows.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Sys.which.html"
+    },
+    "system.file": {
+      "text": "system.file",
+      "snippet": "system.file",
+      "prefix": "system.file",
+      "displayText": "system.file(..., package = \"base\", lib.loc = NULL,mustWork = FALSE)",
+      "description": "Finds the full file names of files in packages etc.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/system.file.html"
+    },
+    "system.time": {
+      "text": "system.time",
+      "snippet": "system.time",
+      "prefix": "system.time",
+      "displayText": ["system.time(expr, gcFirst = TRUE)", "unix.time(expr, gcFirst = TRUE)"],
+      "description": "Return CPU (and other) times that expr used.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/system.time.html"
+    },
+    "system2": {
+      "text": "system2",
+      "snippet": "system2",
+      "prefix": "system2",
+      "displayText": "system2(command, args = character(),stdout = \"\", stderr = \"\", stdin = \"\", input = NULL,env = character(), wait = TRUE,minimized = FALSE, invisible = TRUE)",
+      "description": "system2 invokes the OS command specified by command.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/system2.html"
+    },
+    "t": {
+      "text": "t",
+      "snippet": "t",
+      "prefix": "t",
+      "displayText": "t(x)",
+      "description": "Given a matrix or data.frame x,t returns the transpose of x.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/t.html"
+    },
+    "tabulate": {
+      "text": "tabulate",
+      "snippet": "tabulate",
+      "prefix": "tabulate",
+      "displayText": "tabulate(bin, nbins = max(1, bin, na.rm = TRUE)",
+      "description": "tabulate takes the integer-valued vector bin and countsthe number of times each integer occurs in it.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/tabulate.html"
+    },
+    "tapply": {
+      "text": "tapply",
+      "snippet": "tapply",
+      "prefix": "tapply",
+      "displayText": "tapply(X, INDEX, FUN = NULL, ..., simplify = TRUE)",
+      "description": "Apply a function to each cell of a ragged array, that is to each(non-empty) group of values given by a unique combination of thelevels of certain factors.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/tapply.html"
+    },
+    "taskCallbackManager": {
+      "text": "taskCallbackManager",
+      "snippet": "taskCallbackManager",
+      "prefix": "taskCallbackManager",
+      "displayText": "taskCallbackManager(handlers = list(), registered = FALSE,verbose = FALSE)",
+      "description": "This provides an entirely S-language mechanismfor managing callbacks or actions  that are invoked atthe conclusion of each top-level task.  Essentially,we register a single R function from this managerwith the underlying, nativetask-callback mechanism and this function handles invoking the otherR callbacks under the control of the manager.The manager consists of a collection of functions that access sharedvariables to manage the list of user-level callbacks.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/taskCallbackManager.html"
+    },
+    "tempfile": {
+      "text": "tempfile",
+      "snippet": "tempfile",
+      "prefix": "tempfile",
+      "displayText": ["tempfile(pattern = \"file\", tmpdir = tempdir(), fileext = \"\")", "tempdir()"],
+      "description": "tempfile returns a vector of character strings which can be used asnames for temporary files.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/tempfile.html"
+    },
+    "textConnection": {
+      "text": "textConnection",
+      "snippet": "textConnection",
+      "prefix": "textConnection",
+      "displayText": ["textConnection(object, open = \"r\", local = FALSE, encoding = c(\"\", \"bytes\", \"UTF-8\"))", "textConnectionValue(con)"],
+      "description": "Input and output text connections.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/textconnections.html"
+    },
+    "topenv": {
+      "text": "topenv",
+      "snippet": "topenv",
+      "prefix": "topenv",
+      "displayText": "topenv(envir = parent.frame(), matchThisEnv = getOption(\"topLevelEnvironment\")",
+      "description": "Finding the top level environment from an environmentenvir and its enclosing environments.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/ns-topenv.html"
+    },
+    "toString": {
+      "text": "toString",
+      "snippet": "toString",
+      "prefix": "toString",
+      "displayText": ["toString(x, ...)", "toString(x, width = NULL, ...)"],
+      "description": "This is a helper function for format to produce a singlecharacter string describing an R object.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/toString.html"
+    },
+    "traceback": {
+      "text": "traceback",
+      "snippet": "traceback",
+      "prefix": "traceback",
+      "displayText": "traceback(x = NULL, max.lines = getOption(\"deparse.max.lines\")",
+      "description": "By default traceback() prints the call stack of the lastuncaught error, i.e., the sequence of calls that lead to the error.This is useful when an error occurs with an unidentifiable errormessage.  It can also be used to print the current stack orarbitrary lists of deparsed calls.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/traceback.html"
+    },
+    "transform": {
+      "text": "transform",
+      "snippet": "transform",
+      "prefix": "transform",
+      "displayText": "transform(`_data`, ...)",
+      "description": "transform is a generic function, which—at leastcurrently—only does anything useful withdata frames.  transform.default converts its first argument toa data frame if possible and calls transform.data.frame.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/transform.html"
+    },
+    "trimws": {
+      "text": "trimws",
+      "snippet": "trimws",
+      "prefix": "trimws",
+      "displayText": "trimws(x, which = c(\"both\", \"left\", \"right\")",
+      "description": "Remove leading and/or trailing whitespace from character strings.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/trimws.html"
+    },
+    "try": {
+      "text": "try",
+      "snippet": "try",
+      "prefix": "try",
+      "displayText": "try(expr, silent = FALSE)",
+      "description": "try is a wrapper to run an expression that might fail and allowthe user's code to handle error-recovery.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/try.html"
+    },
+    "typeof": {
+      "text": "typeof",
+      "snippet": "typeof",
+      "prefix": "typeof",
+      "displayText": "typeof(x)",
+      "description": "typeof determines the (R internal)type or storage mode of any object",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/typeof.html"
+    },
+    "unique": {
+      "text": "unique",
+      "snippet": "unique",
+      "prefix": "unique",
+      "displayText": ["unique(x, incomparables = FALSE, ...)", "unique(x, incomparables = FALSE, fromLast = FALSE,nmax = NA, ...)", "unique(x, incomparables = FALSE, MARGIN = 1, fromLast = FALSE, ...)", "unique(x, incomparables = FALSE, MARGIN = 1, fromLast = FALSE, ...)"],
+      "description": "unique returns a vector, data frame or array like xbut with duplicate elements/rows removed.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/unique.html"
+    },
+    "unlink": {
+      "text": "unlink",
+      "snippet": "unlink",
+      "prefix": "unlink",
+      "displayText": "unlink(x, recursive = FALSE, force = FALSE)",
+      "description": "unlink deletes the file(s) or directories specified by x.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/unlink.html"
+    },
+    "unlist": {
+      "text": "unlist",
+      "snippet": "unlist",
+      "prefix": "unlist",
+      "displayText": "unlist(x, recursive = TRUE, use.names = TRUE)",
+      "description": "Given a list structure x, unlist simplifies it toproduce a vector which contains all the atomic componentswhich occur in x.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/unlist.html"
+    },
+    "unname": {
+      "text": "unname",
+      "snippet": "unname",
+      "prefix": "unname",
+      "displayText": "unname(obj, force = FALSE)",
+      "description": "Remove the names or dimnames attribute ofan R object.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/unname.html"
+    },
+    "validUTF8": {
+      "text": "validUTF8",
+      "snippet": "validUTF8",
+      "prefix": "validUTF8",
+      "displayText": ["validUTF8(x)", "validEnc(x)"],
+      "description": "Check if each element of a character vector is valid in its impliedencoding.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/validUTF8.html"
+    },
+    "Vectorize": {
+      "text": "Vectorize",
+      "snippet": "Vectorize",
+      "prefix": "Vectorize",
+      "displayText": "Vectorize(FUN, vectorize.args = arg.names, SIMPLIFY = TRUE,USE.NAMES = TRUE)",
+      "description": "Vectorize creates a function wrapper that vectorizes theaction of its argument FUN.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/Vectorize.html"
+    },
+    "which.min": {
+      "text": "which.min",
+      "snippet": "which.min",
+      "prefix": "which.min",
+      "displayText": ["which.min(x)", "which.max(x)"],
+      "description": "Determines the location, i.e., index of the (first) minimum or maximumof a numeric (or logical) vector.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/which.min.html"
+    },
+    "with": {
+      "text": "with",
+      "snippet": "with",
+      "prefix": "with",
+      "displayText": ["with(data, expr, ...)", "within(data, expr, ...)"],
+      "description": "Evaluate an R expression in an environment constructed from data,possibly modifying (a copy of) the original data.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/with.html"
+    },
+    "withVisible": {
+      "text": "withVisible",
+      "snippet": "withVisible",
+      "prefix": "withVisible",
+      "displayText": "withVisible(x)",
+      "description": "This function evaluates an expression, returning it in a two element listcontaining its value and a flag showing whether it would automatically print.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/withVisible.html"
+    },
+    "write": {
+      "text": "write",
+      "snippet": "write",
+      "prefix": "write",
+      "displayText": "write(x, file = \"data\",ncolumns = if(is.character(x)) 1 else 5,append = FALSE, sep = \" \")",
+      "description": "The data (usually a matrix) x are written to file file.If x is a two-dimensional matrix you need to transpose it to get thecolumns in file the same as those in the internal representation.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/write.html"
+    },
+    "writeLines": {
+      "text": "writeLines",
+      "snippet": "writeLines",
+      "prefix": "writeLines",
+      "displayText": "writeLines(text, con = stdout(), sep = \"\\n\", useBytes = FALSE)",
+      "description": "Write text lines to a connection.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/writeLines.html"
+    },
+    "xtfrm": {
+      "text": "xtfrm",
+      "snippet": "xtfrm",
+      "prefix": "xtfrm",
+      "displayText": "xtfrm(x)",
+      "description": "A generic auxiliary function that produces a numeric vector whichwill sort in the same order as x.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/xtfrm.html"
+    },
+    "zapsmall": {
+      "text": "zapsmall",
+      "snippet": "zapsmall",
+      "prefix": "zapsmall",
+      "displayText": "zapsmall(x, digits = getOption(\"digits\")",
+      "description": "zapsmall determines a digits argument dr forcalling round(x, digits = dr) such that values close tozero (compared with the maximal absolute value) are ‘zapped’,i.e., treated as 0.",
+      "leftLabel": "base",
+      "descriptionMoreURL": "http://stat.ethz.ch/R-manual/R-patched/library/base/html/zapsmall.html"
+    }
+  }
+}
