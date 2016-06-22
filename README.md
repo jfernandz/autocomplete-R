@@ -9,7 +9,7 @@ Autocomplete+ provider for R statistical software for atom text editor
 
 
 ## Note
-I'm a noob in coffeescript so this package could be largely improve.
+I'm a noob in coffeescript so this package functionalities could be largely improve.
 This might break occasionally. So, report any issues.
 
 Also, any suggestions are welcome!
