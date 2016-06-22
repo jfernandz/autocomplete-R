@@ -1,0 +1,36 @@
+{
+  "name": "autocomplete-R",
+  "version": "0.1.0",
+  "private": true,
+  "description": "autocomplete+ provider for R",
+  "main": "./lib/main",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillaumechaumet/autocomplete-R.git"
+  },
+  "keywords": [
+    "R",
+    "R stat",
+    "autocomplete",
+    "autocomplete-plus",
+    "autocomplete+",
+    "atom"
+  ],
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "dependencies": {},
+  "author": "Guillaume Chaumet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guillaumechaumet/autocomplete-R/issues"
+  },
+  "homepage": "https://github.com/guillaumechaumet/autocomplete-R#readme"
+}
