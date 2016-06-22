@@ -1,7 +1,11 @@
-# autocomplete-R DON'T WORK DEBUG IN PROGRESS
+# autocomplete-R
 Autocomplete+ provider for R statistical software for atom text editor
 
+## Method
 
+### A script was made to parse R documentation and a json file was build (perfectible)
+
+### Coffeescript parse json and autocomplete function
 
 
 ## Note
