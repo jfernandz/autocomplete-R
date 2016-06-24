@@ -50,7 +50,7 @@ module.exports =
     line = editor.getTextInRange([[bufferPosition.row, 0], bufferPosition])
     keywordSelectorPrefixPattern.exec(line)?[1]
 
-  buildKeywordCompletion: (keyword, {snippet, displayText, descriptionMoreURL, description, leftLabel}) ->
+  buildKeywordCompletion: (keyword, {snippet, displayText, descriptionMoreURL, type, description, leftLabel,rightLabel}) ->
     completion =
       description: description
       descriptionMoreURL: descriptionMoreURL
@@ -60,6 +60,12 @@ module.exports =
 
     if leftLabel?.length
       completion.leftLabel = leftLabel
+
+    if rightLabel?.length
+      completion.rightLabel = rightLabel
+
+    if type?.length
+      completion.type = type
 
     if snippet?.length
       completion.snippet = snippet
