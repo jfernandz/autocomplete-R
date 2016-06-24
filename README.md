@@ -5,7 +5,7 @@
 ### A script was made to parse R documentation and a json file was build (perfectible)
 see R/scrapeRdoc.R
 
-### Coffeescript parse json and autocomplete function
+### Coffeescript parse json and autocomplete R functions (with Autocomplete plus)
 
 
 ## Note
