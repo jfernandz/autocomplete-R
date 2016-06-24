@@ -1,10 +1,7 @@
 {
   "name": "autocomplete-R",
-<<<<<<< HEAD
-  "version": "0.0.0",
-=======
+
   "version": "0.1.0",
->>>>>>> 76c158d06683c16443b1b34ca46d88ace3e5b255
   "private": false,
   "description": "autocomplete+ provider for R",
   "main": "./lib/main",
@@ -30,11 +27,7 @@
       }
     }
   },
-<<<<<<< HEAD
-  "dependencies": {},
-=======
   "dependencies": {"autocomplete-plus"},
->>>>>>> 76c158d06683c16443b1b34ca46d88ace3e5b255
   "author": "Guillaume Chaumet",
   "license": "MIT",
   "bugs": {
