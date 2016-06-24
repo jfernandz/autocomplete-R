@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # autocomplete-R
 Autocomplete+ provider for R statistical software for atom text editor
 
@@ -19,8 +18,6 @@ Autocomplete+ provider for R statistical software for atom text editor
 
 ## Note
 I'm a noob in coffeescript so this package functionalities could be largely improve.
->>>>>>> 76c158d06683c16443b1b34ca46d88ace3e5b255
-This might break occasionally. So, report any issues.
 
 Also, any suggestions are welcome!
 
