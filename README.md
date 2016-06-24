@@ -1,4 +1,4 @@
-Autocomplete+ provider for R statistical software for atom text editor
+#Autocomplete+ provider for R statistical software for atom text editor
 
 ## Method
 
