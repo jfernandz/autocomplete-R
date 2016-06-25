@@ -9,11 +9,13 @@ see R/scrapeRdoc.R
 
 
 ## Note
-I'm a noob in coffeescript so this package functionalities could be largely improve.
+I'm a noob in coffeescript so this package functionalities could be largely improved.
 
 Also, any suggestions are welcome!
 
 Feel free to contribute!
+
+Special thanks to AltraBio Company
 
 ## License
 Licensed under the [MIT License](https://raw.githubusercontent.com/guillaumechaumet/autocomplete-R/master/LICENSE)
