@@ -123,16 +123,12 @@ leftLabel<-unlist(lapply(finallist$keywords, function(x) rep(x$leftLabel,length(
 snippet<-unlist(lapply(finallist$keywords, function(x) x$snippet))
 type<-unlist(lapply(finallist$keywords, function(x) x$type))
 
-
-
 mylonglist<-list()
 for(i in 1L:length(snippet)){
 	mylonglist[[i]]<-list('text'=unname(text[i]),'prefix'=unname(prefix[i]),'snippet'=unname(snippet[i]),'description'=unname(description[i]),'rightLabel'=unname(rightLabel[i]),'leftLabel'=unname(leftLabel[i]),'descriptionMoreURL'=unname(descriptionMoreURL[i]),'type'=unname(type[i]))
 	}
 
 names(mylonglist)<-lapply(mylonglist,function(x) x$text)
-
-s
 
 
 cat(toJSON(list('keywords'=mylonglist),auto_unbox=TRUE),file='completions.json')
