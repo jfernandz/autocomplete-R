@@ -12,10 +12,8 @@ scapeRdoc<-function(package="base",website="http://stat.ethz.ch/R-manual/R-patch
 	myscrap<-unique(myscrap)
 	scrapeRoutine<-function(addr,x) {
 		if(!is.na(x)){
-
 			core = read_html(paste0(addr,x))
-
-			if(length(core %>% html_nodes('pre')%>% html_text())!=0 && any(core %>% html_nodes('h3') %>% html_text()=='Usage') && grepl(pattern='\\(', core %>% html_node('pre') %>% html_text())) {
+			if(length(core %>% html_nodes('pre')%>% html_text())!=0 && any(core %>% html_nodes('h3') %>% html_text()=='Usage') && grepl(pattern='\\(', core %>% html_node('pre') %>% html_text()) && !grepl(pattern='\\[', core %>% html_node('pre') %>% html_text())){
 				Text= strsplit(core %>% html_node('title')%>% html_text(),split=":")[[1]][2]
 				rightLabel = core %>% html_node('h2')%>% html_text()
 				Snippet = core %>% html_node('pre')%>% html_text()
@@ -37,6 +35,7 @@ scapeRdoc<-function(package="base",website="http://stat.ethz.ch/R-manual/R-patch
 
 				SnippetDisp = SnippetDisp[grepl("\\(",SnippetDisp)]
 				SnippetDisp = SnippetDisp[!grepl("<-",SnippetDisp)]
+
 				#SnippetDisp = SnippetDisp[!grepl(" \\- ",SnippetDisp)]
 
 				#SnippetDisp = SnippetDisp[!grepl(" \\+ ",SnippetDisp)]
@@ -101,6 +100,39 @@ basej<-scapeRdoc('base')
 statsj<-scapeRdoc('stats')
 toolsj<-scapeRdoc('tools')
 utilsj<-scapeRdoc('utils')
-methodsj<-scapeRdoc('methods') # error
+#methodsj<-scapeRdoc('methods') # error
 graphicsj<-scapeRdoc('graphics')
-cat(toJSON(list('keywords'=c(basej,statsj,toolsj,utilsj,methodsj)),auto_unbox=TRUE),file='completions.json')
+
+
+finallist<-list('keywords'=c(basej,statsj,toolsj,utilsj))
+
+names(finallist$keywords)<-lapply(finallist$keywords, function(x) x$text)
+
+prefix<-unlist(lapply(finallist$keywords, function(x) x$prefix))
+
+text<-unlist(lapply(finallist$keywords, function(x) rep(x$text,length(x$prefix))))
+
+description<-unlist(lapply(finallist$keywords, function(x) rep(x$description,length(x$prefix))))
+
+descriptionMoreURL<-unlist(lapply(finallist$keywords, function(x) rep(x$descriptionMoreURL,length(x$prefix))))
+
+rightLabel<-unlist(lapply(finallist$keywords, function(x) rep(x$rightLabel,length(x$prefix))))
+
+leftLabel<-unlist(lapply(finallist$keywords, function(x) rep(x$leftLabel,length(x$prefix))))
+
+snippet<-unlist(lapply(finallist$keywords, function(x) x$snippet))
+type<-unlist(lapply(finallist$keywords, function(x) x$type))
+
+
+
+mylonglist<-list()
+for(i in 1L:length(snippet)){
+	mylonglist[[i]]<-list('text'=unname(text[i]),'prefix'=unname(prefix[i]),'snippet'=unname(snippet[i]),'description'=unname(description[i]),'rightLabel'=unname(rightLabel[i]),'leftLabel'=unname(leftLabel[i]),'descriptionMoreURL'=unname(descriptionMoreURL[i]),'type'=unname(type[i]))
+	}
+
+names(mylonglist)<-lapply(mylonglist,function(x) x$text)
+
+s
+
+
+cat(toJSON(list('keywords'=mylonglist),auto_unbox=TRUE),file='completions.json')
