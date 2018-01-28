@@ -1,4 +1,5 @@
 # Extract inf
+# install.packages(c("jsonlite","pryr","rvest","magrittr","XML"))
 library(jsonlite)
 library(pryr)
 library(rvest)

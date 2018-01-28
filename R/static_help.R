@@ -6,6 +6,7 @@ static_help = function(pkg, links = tools::findHTMLlinks()) {
   pkgRdDB = tools:::fetchRdDB(file.path(find.package(pkg), 'help', pkg))
   force(links); topics = names(pkgRdDB)
   n <- length(topics)
+  # str(topics)
   i <- 1
   doc <- list()
   while(i <= n) {
