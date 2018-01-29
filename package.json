@@ -1,6 +1,6 @@
 {
   "name": "autocomplete-R",
-  "version": "0.6.0",
+  "version": "1.0.0",
   "private": false,
   "description": "autocomplete+ provider for R",
   "main": "./lib/main",
@@ -27,6 +27,7 @@
   },
   "dependencies": {},
   "author": "Guillaume Chaumet",
+  "contributors": "Andryas Waurzenczak",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/guillaumechaumet/autocomplete-R/issues"
