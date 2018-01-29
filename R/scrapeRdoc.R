@@ -11,7 +11,7 @@ scrapeRdoc<-function(pkg="base"){
   doc <- static_help(pkg = pkg)
   mylonglist <- list()
   n <- length(doc)
-  i <- 3
+  i <- 1
   while (i <= n) {
     fun <- doc[[i]]
     # Title

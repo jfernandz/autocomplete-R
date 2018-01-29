@@ -19,7 +19,7 @@ Feel free to contribute!
 
 Special thanks to AltraBio Company
 
-@contribuitios: Andryas Waurzenczak
+@contributions: Andryas Waurzenczak
 
 ## License
 Licensed under the [MIT License](https://raw.githubusercontent.com/guillaumechaumet/autocomplete-R/master/LICENSE)
