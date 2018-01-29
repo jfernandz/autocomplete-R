@@ -2,8 +2,8 @@ options(warn=-1)
 
 pkg <- .packages()
 
-source("R/static_help.R")
-source("R/scrapeRdoc.R")
+source("static_help.R")
+source("scrapeRdoc.R")
 
 allpackages <- list()
 
