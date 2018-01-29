@@ -1,6 +1,7 @@
 # Install packages
-# install.packages(c("XML"))
-library(XML)
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(jsonlite, pryr, rvest, magrittr, XML)
+
 # https://yihui.name/en/2012/10/build-static-html-help/
 static_help = function(pkg, links = tools::findHTMLlinks()) {
   pkgRdDB = tools:::fetchRdDB(file.path(find.package(pkg), 'help', pkg))
