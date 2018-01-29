@@ -10,7 +10,7 @@ Default R packages were implemented.
 print(.packages())
 ```
 
-To implement more packages you just need to execute `.atom/packages/autocomplete-R/R/packages_new.R`.
+To implement more packages you just need to execute `source("~/.atom/packages/autocomplete-R/R/packages_new.R")`.
 
 
 ***
