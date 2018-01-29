@@ -1,5 +1,9 @@
 options(warn=-1)
 
+scrapPath<-path.expand("~/.atom/packages/autocomplete-R/R/")
+
+setwd(scrapPath)
+
 source("static_help.R")
 source("scrapeRdoc.R")
 
